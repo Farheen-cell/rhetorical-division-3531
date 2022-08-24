@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Lato, sans-serif;
+            color: #333333;
+        }
+
+        #regitration {
+            
+            width: 570px;
+           
+            padding: 32px;
+            margin: auto;
+            margin-top: 100px;
+            background-color:#FFFFFF ;
+        }
+
+        #regitration-heading {
+            color: #333333;
+        }
+
+        #details {
+           
+            width: 100%;
+            display: flex;
+            flex-direction: column;margin-top: 20px;
+
+        }
+        body{
+            background-color: #F2F2F2;
+        }
+
+        #icon {
+            
+            margin-top: 20px;
+            height: 50px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #icon-1 {
+            border: 1px solid #333333;;
+            height: 100%;
+            width: 48%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        hr {
+            color: black;
+            width: 100%;
+            margin-top: 40px;
+        }
+
+        #account {
+            margin: 16px 0px 32px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        input {
+            height: 50px;
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+        input:hover{
+            border-color: black;
+        }
+
+        #submit {
+            padding: 15px 0px;
+            background-color: #2E3337;
+            color: #ffffff;
+            font-size: 20px;
+            font-weight: 300;
+            font-style: normal;
+        }
+        #submit:hover{
+            background-color: rgb(40,189,183);
+            color: #2E3337;
+        }
+        #terms{
+            margin: 30px 0px;
+        }
+        i{
+            color: blue;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div id="regitration">
+        <h1 id="regitration-heading">About You</h1>
+        <div id="details">
+            <h2>Sign up With</h2>
+            <div id="icon">
+                <div id="icon-1">
+
+                    <h3 id="facebook"> <i class='fa fa-facebook-official' ></i> Facebook</h3>
+                </div>
+                <div id="icon-1">
+
+                    <h3 id="facebook"> <i class='fa fa-google' style='color: blue'></i> Google</h3>
+                </div>
+            </div>
+            <hr>
+            <h2 id="account">Or create an email account</h2>
+            <form>
+                <h4>*Full Name</h4>
+                <input type="text" required>
+                <h4>*Email address</h4>
+                <input type="email"  required>
+                <h4>*Password</h4>
+                <input type="password" required>
+                <h4>*Cell Phone Number (Optional)</h4>
+                <input type="number">
+                <button id="submit">Continue</button>
+                <div id="terms">By proceeding, you are confirming that you agree to our <a href="/info/terms-conditions.list" >Terms and Conditions</a> and <a href="/info/privacy-policy.list">Privacy Policy</a> </div>
+            </form>
+
+        </div>
+    </div>
+</body>
+
+</html>
