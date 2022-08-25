@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+    <style>
+      #now {
+        margin-left: 1300px;
+        height: 50px;
+        background-color: black;
+        color: white;
+      }
+
+      #spend {
+        margin-left: 10px;
+        border: 1px solid rgb(191, 248, 243);
+        background-color: rgb(235, 255, 253);
+        color: rgb(23, 125, 156);
+        margin-top: 30px;
+      }
+
+      #cart {
+        display: flex;
+        justify-content: space-between;
+        /* border: 1px solid red; */
+        height: 400px;
+        width: 65%;
+      }
+
+      #cop {
+        height: 60px;
+        width: 80%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-top: 40px;
+      }
+
+      #cop > input {
+        width: 30%;
+        border: 1px solid black;
+      }
+      #cop > button {
+        width: 10%;
+        background-color: rgba(216, 214, 214, 0.993);
+        border: none;
+      }
+
+      #cop > button:hover {
+        background-color: rgb(95, 94, 94);
+      }
+
+      #check {
+        display: flex;
+        width: 70%;
+        /* border: 1px solid red; */
+        justify-content: space-between;
+        margin-top: 50px;
+      }
+
+      #conti {
+        height: 50px;
+        width: 120%;
+        border: none;
+        font-size: 20px;
+      }
+
+      #bok {
+        height: 50px;
+        width: 100%;
+        border: none;
+        font-size: 15px;
+        background-color: black;
+        color: white;
+      }
+
+      #gifts {
+        /* border: 2px solid red; */
+        height: 500px;
+        width: 30%;
+        margin-left: 70%;
+        margin-top: -43%;
+        background-color: rgb(231, 226, 226);
+      }
+
+      #git {
+        margin-left: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1 style="margin-left: 10px">Your Cart</h1>
+    </div>
+    <div>
+      <a href="./payment.html"
+        ><button id="now">CHECKOUT SECURELY NOW</button></a
+      >
+    </div>
+
+    <div id="spend">
+      <h3>Spend another $0.25 and receive FREE US tracked delivery!</h3>
+    </div>
+
+    ____________________________________________________________________________________________________________________________
+
+    <div id="cart">
+      <div id="item"><h3>Items</h3></div>
+      <div id="price"><h3>Price</h3></div>
+      <div id="quan"><h3>Quantity</h3></div>
+      <div id="total"><h3>Sub Total</h3></div>
+    </div>
+    ______________________________________________________________________________________________________________________
+
+    <div id="cop">
+      <input type="text" placeholder="Get a coupon code? Enter it here" />
+      <button>ADD</button>
+    </div>
+
+    <div id="check">
+      <a href=""><button id="conti">Continue Shopping</button></a>
+      <a href="./payment.html"
+        ><button id="bok">CHECKOUT SECURELY NOW</button></a
+      >
+    </div>
+
+    <div id="gifts">
+      <div id="git">
+        <h3>Gifts Selection</h3>
+        <p>
+          Select a gift for you or someone you love when you spend $130 or more
+        </p>
+        <br />
+
+        <p>Spend $130 or more to qualify</p>
+        <br />
+
+        <p>$80.31 More to go</p>
+      </div>
+    </div>
+  </body>
+</html>
