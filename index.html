@@ -1,25 +1,625 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SkinStore</title>
-    <link rel="stylesheet" href="./index.css">
-</head>
-<body>
-    <div id="topbar"></div>
-    <div id="mainNevbar">
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap" rel="stylesheet">
+    
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">  --> 
+
+  <link rel="stylesheet" href="./index.css" /> 
+    
+  </head>
+  <body>
+    <div id="import"></div>
+    
+
+
+    <div class="carousel-container">
+      <div class="carousel">
+           
+             
+              <div class="carousel_track-container">
+                  <button class="carousel-button" onclick="plusDivs(-1)">&#10094;</button>
+                  <button class="carousel-button" onclick="plusDivs(+1)">&#10095;</button>
+
+                  <div class="slides">
+                  <a href="./product.html"><img  src="https://static.thcdn.com/images/xlarge/webp/widgets/121-us/33/0328-STDCRE-33849-WC-SS-April-Photography-Batching-Shot05-1180x450-101433.jpg" ></a>
+                  <div class="slides__desc">
+                      <p><i>refresh your</i></p>
+                      <p>ROUTINE</p>
+                      <!-- <br/><br/> -->
+                      <p>Spring refresh--edit your AM & PM<br/>
+                      routine for your best skin yet.</p>
+                  <button>SHOP NOW</button>
+                  
+                  </div>
+                  </div> 
+
+                  <div class="slides">
+                      <a href="./product.html"><img   src="https://static.thcdn.com/images/xlarge/webp/widgets/121-us/00/Shot_1_1180x450-082400.jpg"></a>
+                      <div class="slides__desc">
+                          <p><i>shop</i></p>
+                          <p>BATH & <br/>
+                          BODY</p>
+                          <!-- <br/><br/> -->
+                          <p>From oils to multi-tasking balms, we've got<br/>
+                          your beauty routine covered from head-to-<br/>
+                      toe.</p>
+                      <button>SHOP NOW</button>
+                      
+                      </div>
+                  </div>
+                  
+                  <div class="slides">
+                      <a href="./product.html"><img  src="https://static.thcdn.com/images/xlarge/webp/widgets/121-us/13/0303-STDCRE-32419-SS-JH-March_Beauty_Bag_Comped_Image-1180x450-075313.jpg" "></a>
+                      <div class="slides__desc">
+                          <p>April</p>
+                          <p><i>beauty bag</i></p>
+                          <!-- <br/><br/> -->
+                          <p>Worth $87, our 11-piece beauty bag is the<br/>
+                          perfect gift with any purchase of $150 or <br/>
+                      more!</p>
+                      <button>SHOP NOW</button>
+                      
+                      </div>
+                  </div>
+                  
+
+
+              </div>
+      </div>
+      <div class="carousel__nav">
+          <button class="carousel__indicator"></button>
+          <button class="carousel__indicator"></button>
+          <button class="carousel__indicator"></button>
+      </div>
+  </div>
+
+  <section class="container-category">
+    <h1>Shop by Category</h1>
+    <div class="container-category--items">
+        <div>
+            <a href="./product.html">
+                <img src = "https://static.thcdn.com/images/small/webp/widgets/121-us/01/Page-001-025201.png">
+            </a>
+         
+        </div>
+        <div>
+            <a href="./product.html">
+                <img src = "https://static.thcdn.com/images/small/webp/widgets/121-us/09/Page-002-025209.png">
+            </a>
+            
+        </div>
+        <div>
+            <a href="./product.html">
+                <img src = "https://static.thcdn.com/images/small/webp/widgets/121-us/17/Page-003-025217.png">
+            </a>
+          
+        </div>
+        <div>
+            <a href="./product.html">
+                <img src = "https://static.thcdn.com/images/small/webp/widgets/121-us/21/Page-004-025221.png">
+            </a>
+           
+        </div>
+        <div>
+            <a href="./product.html">
+                <img src = "https://static.thcdn.com/images/small/webp/widgets/121-us/40/Page-005-025240.png">
+            </a>
+           
+        </div>
+        <div>
+            <a href="./product.html">
+                <img src = "https://static.thcdn.com/images/small/webp/widgets/121-us/58/Page-006-025258.png">
+            </a>
+           
+        </div>
 
     </div>
-    <div id="slideShow">
+</section>
+
+<section class="container-peopleBuying">
+    <h1>What People Are Buying Right Now</h1>
+    <div class="container-peopleBuying--items">
+        <a href="./product.html">
+            <img src = "https://static.thcdn.com/images/small/webp//productimg/480/480/13645148-2094934999114430.jpg" />
+            <p><b>NuFACE Trinity Supercharged Skincare Routine (Worth $513.00)</b></p>
+            <p>$370.00</p>
+            <div>
+                <!-- <img src = "https://pasteboard.co/avs6Rm3SEunZ.png" height="30" width="30"/> -->
+                <span>SHOP NOW</span>
+            </div>
+
+        </a>
+
+        <a href="./product.html">
+            <img src = "https://static.thcdn.com/images/small/webp//productimg/480/480/11289609-1174892770940184.jpg" />
+            <p><b>SkinCeuticals C E Ferulic with 15% L-Ascorbic Acid Vitamin C Serum 30ml</b></p>
+            <p>$169.00</p>
+            <div>
+                <!-- <img src = "https://postimg.cc/PPF3mtR8" height="30" width="30"/> -->
+                <span>SHOP NOW</span>
+            </div>
+
+        </a>
+
+        <a href="./product.html">
+            <img src = "https://static.thcdn.com/images/small/webp//productimg/480/480/13694394-1174938374323578.jpg" />
+            <p><b>TriPollar STOP X Rose Gold and Cosmetics Bag Exclusive Bundle</b></p>
+            <p>$399.50</p>
+            <div>
+                <!-- <img src = "https://pasteboard.co/avs6Rm3SEunZ.png" height="30" width="30"/> -->
+                <span>SHOP NOW</span>
+            </div>
+
+        </a>
+
+        <a href="./product.html">
+            <img src = "https://static.thcdn.com/images/small/webp//productimg/480/480/12915716-1804871846655444.jpg" />
+            <p><b>DHC Salicylic Acne Wash 4 fl. oz.</b></p>
+            <p>$22.00</p>
+            <br/>
+          
+            <div>
+                <!-- <img src = "https://pasteboard.co/avs6Rm3SEunZ.png" height="30" width="30"/> -->
+                <span>SHOP NOW</span>
+            </div>
+
+        </a>
         
+
     </div>
-     
+    
+
+</section>
 
 
 
+<section class="container__banner--one">
+    <a href="./product.html">
+        <img src = "https://static.thcdn.com/images/xlarge/webp/widgets/121-us/14/original-0422-STDCRE-35045-SS-EF-Disruptor-Banner-1180x200-031614.jpg">
+    </a>
+</section>
 
-</body>
+
+<section class="brands__container">
+    <a href="./product.html">
+        <img src = "https://static.thcdn.com/images/small/webp/widgets/121-us/26/180x72_4_233548301_CA_SS_Logo_Amend_BAU_THG0030424-041301-124116-063126.png" />
+    </a>
+
+    <a href="./product.html">
+        <img src = "https://static.thcdn.com/images/small/webp/widgets/121-us/18/original-logo-1024x383-035229-063318.png" />
+    </a>
+
+    <a href="./product.html">
+        <img src = "https://static.thcdn.com/images/small/webp/widgets/121-us/11/Revision_Skincare_Logo_without_Tag_Line-052511.png" />
+    </a>
+
+
+    <a href="./product.html">
+        <img src = "https://static.thcdn.com/images/small/webp/widgets/121-us/46/original-NF_Skinstore_Banner_Logo_Color_320x140-01-011402-010546.png" />
+    </a>
+
+
+    <a href="./product.html">
+        <img src = "https://static.thcdn.com/images/small/webp/widgets/121-us/27/220322-ELTAMD-LOGO-RGB-01-065127.png" />
+    </a>
+
+    <a href="./product.html">
+        <img src = "https://static.thcdn.com/images/small/webp/widgets/121-us/07/original-LOGO-2022_SkinStore_Landing_Page-BLACK-060107.png" />
+    </a>
+    
+</section>
+
+
+
+<section class="trending--container">
+    <h1>Trending Offers</h1>
+    <div class="trending--container-items">
+        <a href="./product.html">
+            <img src = "https://static.thcdn.com/images/small/webp/widgets/121-us/39/1224-STDCRE-28425-WC-SS-SkinStore-January-Photography-2022-BATCHING_Shot17-600x600-053341-095839.jpg"/>
+            <p><b>SkinCeuticals New In</b></p>
+
+            <span> Phyto A+ Brightening Treatment brightens, while reducing post-blemish marks in an oil-free formula with a gel-creme texture.</span>
+            <br/>
+            <button>SHOP NOW</button>
+        </a>
+
+        <a href="./product.html">
+            <img src = "https://static.thcdn.com/images/small/webp/widgets/121-us/29/original-Shot_34_500x500-094929.jpg"/> 
+
+            <p>New in: Revision Skincare</p>
+
+            <span>Revision Skincare was founded to change the way professional skincare results are achieved.</span>
+            <br/><br/>
+
+            <button>SHOP NOW</button>
+        </a>
+
+
+        <a href="./product.html">
+            <img src = "https://static.thcdn.com/images/small/webp/widgets/121-us/00/original-original-original-original-0429-STDCRE-13871-SS-CT-Summer-Commercial-Campaign-Photography-Batching-Priority-3-Shot_11.psd500x500-093656-100318-094035-072000.jpg"/>
+        
+
+        <p>Brand of the Month: First Aid Beauty</p>
+
+            <span>No matter your skin care need, you can find First Aid Beauty products that work for you.</span><br/><br/>
+
+            <button>SHOP NOW</button>
+        </a>
+
+
+    </div>
+</section>
+
+
+
+ <section class="trending--container  trending--container-items__down">
+   
+    <div class="trending--container-items">
+        <a href="./product.html">
+            <img src = "https://static.thcdn.com/images/small/webp/widgets/121-us/35/LF-EF-US-Comps-REN-380x312-045935.jpg"/>
+            <p>SkinCeuticals New In</p>
+
+            <span> Phyto A+ Brightening Treatment brightens, while reducing post-blemish marks in an oil-free formula with a gel-creme texture.</span>
+            <br/>
+            <button>SHOP NOW</button>
+        </a>
+
+        <a href="./product.html">
+            <img src = "https://static.thcdn.com/images/small/webp/widgets/121-us/58/original-0328-STDCRE-33849-WC-SS-April-Photography-Batching-Shot22-500x500-011858.jpg"/> 
+
+            <p>New in: Revision Skincare</p>
+
+            <span>Revision Skincare was founded to change the way professional skincare results are achieved.</span>
+            <br/><br/>
+
+            <button>SHOP NOW</button>
+        </a>
+
+
+        <a href="./product.html">
+            <img src = "https://static.thcdn.com/images/small/webp/widgets/121-us/55/original-Shot_8_500x500-070755.jpg"/>
+        
+
+        <p>Brand of the Month: First Aid Beauty</p>
+
+            <span>No matter your skin care need, you can find First Aid Beauty products that work for you.</span><br/><br/>
+
+            <button>SHOP NOW</button>
+        </a>
+
+
+    </div>
+</section> 
+
+<h1 class="trending__slick__header">Trending Now</h1>
+<section class="trending__slick__container">
+   <section>
+       <a href="./product.html">
+       <img src="https://static.thcdn.com/images/medium/webp/widgets/121-us/09/4P-Goop-with-bottle-and-bubbles-600x600-100209.jpg" />
+       </a>
+   </section>
+
+
+
+   <section>
+    <div class="slick-container">
+        <div class="carousel">
+             
+               
+                <div class="slick_track-container">
+                    <button class="slick-button" onclick="plusDivs1(-1)">&#10094;</button>
+                    <button class="slick-button" onclick="plusDivs1(+1)">&#10095;</button>
+
+                    <div class="slick-slides">
+                    <a href="">
+                        <img src = "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11805644-1424900827409197.jpg" />
+           <p>Murad Outsmart Acne Clarifying Treatment</p>
+           <span>Murad Gift</span><br/>
+            <!-- <img src="https://postimg.cc/JHsTFvyh" height="15" width="15"/>
+            <img src="https://postimg.cc/JHsTFvyh" height="15" width="15"/>
+            <img src="https://postimg.cc/JHsTFvyh" height="15" width="15"/>
+            <img src="https://postimg.cc/JHsTFvyh" height="15" width="15"/> -->
+
+           <p class="price"><b>$46.00</b></p>
+
+           <a href="./product.html" class="quick__buy">QUICK BUY</a>
+                    </a>
+                    </div> 
+
+                    <div class="slick-slides">
+                        <a href="./product.html"> <img src = "https://static.thcdn.com/images/xsmall/webp/productimg/1600/1600/11428984-1564528377683031.jpg" />
+                            <p>La Roche-Posay Hydraphase Intense Eyes 15ml
+                            </p>
+                            <span>25% off SPF's</span><br/>
+                             <!-- <img src="https://postimg.cc/JHsTFvyh" height="15" width="15"/>
+                             <img src="https://postimg.cc/JHsTFvyh" height="15" width="15"/>
+                             <img src="https://postimg.cc/JHsTFvyh" height="15" width="15"/>
+                             <img src="https://postimg.cc/JHsTFvyh" height="15" width="15"/> -->
+                    
+                            <p class="price"><b>$19.99</b></p>
+                    
+                            <a href="./product.html" class="quick__buy">QUICK BUY</a>
+                    </a>
+                    </div>
+                    
+                    <div class="slick-slides">
+                        <a href="./product.html">
+                            <img src = "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11429304-1984938699383949.jpg" />
+        <p>The Ordinary AHA 30% + BHA 2% Peeling Solution 30ml</p>
+        <span>FREE 2-DAY delivery with code MOM!</span><br/>
+         <!-- <img src="https://postimg.cc/JHsTFvyh" height="15" width="15"/>
+         <img src="https://postimg.cc/JHsTFvyh" height="15" width="15"/>
+         <img src="https://postimg.cc/JHsTFvyh" height="15" width="15"/>
+         <img src="https://postimg.cc/JHsTFvyh" height="15" width="15"/> -->
+
+        <p class="price"><b>$8.00</b></p>
+
+        <a href="" class="quick__buy">QUICK BUY</a>
+                    </a>
+                    </div>
+
+
+                    <div class="slick-slides">
+                        <a href="./product.html">
+                            <img src = "https://static.thcdn.com/images/xsmall/webp//productimg/original/11289134-1854871558942916.jpg" />
+                            <p>Peter Thomas Roth Instant FirmX Eye 15ml
+                            </p>
+                            <span>FREE 2-DAY delivery with code MOM!</span><br/>
+                             <!-- <img src="https://postimg.cc/JHsTFvyh" height="15" width="15"/>
+                             <img src="https://postimg.cc/JHsTFvyh" height="15" width="15"/>
+                             <img src="https://postimg.cc/JHsTFvyh" height="15" width="15"/>
+                             <img src="https://postimg.cc/JHsTFvyh" height="15" width="15"/> -->
+                    
+                            <p class="price"><b>$19.99</b></p>
+                    
+                            <a href="" class="quick__buy">QUICK BUY</a>
+                    </a>
+                    </div>
+
+
+                    <div class="slick-slides">
+                        <a href="./product.html">
+                            <img src = "https://static.thcdn.com/images/xsmall/webp//productimg/1600/1600/12538013-4764765050522444.jpg" />
+        <p>EltaMD UV Clear SPF46 Broad-Spectrum Duo (Worth $72)
+        </p>
+        <span>FREE 2-DAY delivery with code MOM!</span><br/>
+         <!-- <img src="https://postimg.cc/JHsTFvyh" height="15" width="15"/>
+         <img src="https://postimg.cc/JHsTFvyh" height="15" width="15"/>
+         <img src="https://postimg.cc/JHsTFvyh" height="15" width="15"/>
+         <img src="https://postimg.cc/JHsTFvyh" height="15" width="15"/> -->
+
+        <p class="price"><b>$19.99</b></p>
+
+        <a href="./product.html" class="quick__buy">QUICK BUY</a>
+                    </a>
+                    </div>
+                    
+
+
+                </div>
+        </div>
+        <div class="slick__nav">
+            <button class="slick__indicator"></button>
+            <button class="slick__indicator"></button>
+            <button class="slick__indicator"></button>
+            <button class="slick__indicator"></button>
+            <button class="slick__indicator"></button>
+        </div>
+    </div>
+    
+   </section>
+</section>
+
+
+<section class="trending--container ">
+  <h1>Over On the Blog...</h1> 
+  <div class="trending--container-items">
+      <a href="./product.html">
+          <img src = "https://static.thcdn.com/images/small/webp/widgets/121-us/10/original-0328-STDCRE-33849-WC-SS-April-Photography-Batching-Shot07-500x500-030310.jpg"/>
+          <p>SkinCeuticals New In</p>
+
+          <span> Phyto A+ Brightening Treatment brightens, while reducing post-blemish marks in an oil-free formula with a gel-creme texture.</span>
+
+          <button>READ MORE</button>
+      </a>
+
+      <a href="./product.html">
+          <img src = "https://static.thcdn.com/images/small/webp/widgets/121-us/51/original-0224-STDCRE-32153-SS-BME-Skinstore-March-2022-Photography-Batching-Shot_13-500x500-023351.jpg"/> 
+
+          <p>New in: Revision Skincare</p>
+
+          <span>Revision Skincare was founded to change the way professional skincare results are achieved.</span>
+          <br/><br/>
+
+          <button>READ MORE</button>
+      </a>
+
+
+      <a href="./product.html">
+          <img src = "https://static.thcdn.com/images/small/webp/widgets/121-us/23/original-MicrosoftTeams-image_%2827%29-023623.png"/>
+      
+
+      <p>Brand of the Month: First Aid Beauty</p>
+
+          <span>No matter your skin care need, you can find First Aid Beauty products that work for you.</span><br/><br/>
+
+          <button>READ MORE</button>
+      </a>
+
+
+  </div>
+</section>
+
+
+<section class="container__banner--one container__bannner_two">
+  <a href="./product.html">
+      <img src = "https://static.thcdn.com/images/xlarge/webp/widgets/121-us/32/original-0308-STDCRE32346-SS-AH-SkinStore-Concierge-Banners-1180x200-084632.jpg">
+  </a>
+</section>
+
+<section class="footer-links-container">
+  <div>
+    <p>Sign up to our email list and receive 20% off your next order</p>
+    <button>SHOP NOW</button>
+  </div>
+
+  <div>
+    <p>Connect with us</p>
+    <a href="./product.html">
+      <svg
+        class="eastendFooterSocialIcons_listItemSvg"
+        width="40px"
+        height="40px"
+        viewBox="0 0 40 40"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle
+          class="eastendFooter_fill_hover"
+          cx="20"
+          cy="20"
+          r="20"
+          fill="#607FBA"
+        ></circle>
+        <path
+          class="eastendFooterSocialIcons_listItemSvgPath"
+          d="M17.0680736,16.6145435 L17.0680736,14.6052554 C17.0680736,13.7187702 17.0904121,12.3525954 17.7335254,11.5060843 C18.4119099,10.6090177 19.3418964,10 20.9432132,10 C23.5509376,10 24.6490506,10.3715243 24.6490506,10.3715243 L24.132914,13.4342484 C24.132914,13.4342484 23.2711187,13.1861737 22.4669332,13.1861737 C21.6627476,13.1861737 20.9432132,13.4742226 20.9432132,14.2772324 L20.9432132,16.6145435 L24.2399036,16.6145435 L24.0094645,19.6055494 L20.9432132,19.6055494 L20.9432132,30 L17.0680736,30 L17.0680736,19.6055494 L15,19.6055494 L15,16.6145435 L17.0680736,16.6145435 Z"
+          id="Facebook"
+          fill="#FFFFFF"
+        ></path>
+      </svg>
+    </a>
+    <a href="./product.html">
+      <svg
+        class="eastendFooterSocialIcons_listItemSvg"
+        width="40px"
+        height="40px"
+        viewBox="0 0 40 40"
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+        <circle
+          id="Oval-2-Copy"
+          class="eastendFooter_fill_hover"
+          cx="20"
+          cy="20"
+          r="20"
+          fill="#d93175"
+          ;
+          color="white"
+          ;
+        ></circle>
+        <path
+          fill="#FFF"
+          class="eastendFooterSocialIcons_listItemSvgPath"
+          d="M19.9968651,10.0063095 C17.2818651,10.0063095 16.9414286,10.0178175 15.8751587,10.0664683 C14.8111111,10.115 14.0844048,10.2840079 13.4485317,10.5311508 C12.7911508,10.7865873 12.2336508,11.1284127 11.6778571,11.6841667 C11.1221032,12.2399603 10.7802778,12.7974603 10.5248413,13.4548413 C10.2776984,14.0907143 10.1086905,14.8174206 10.0601587,15.8814683 C10.0115079,16.9477381 10,17.2881746 10,20.0031746 C10,22.7181349 10.0115079,23.0585714 10.0601587,24.1248413 C10.1086905,25.1888889 10.2776984,25.9155952 10.5248413,26.5514683 C10.7802778,27.2088492 11.1221032,27.7663492 11.6778571,28.3221429 C12.2336508,28.8778968 12.7911508,29.2197222 13.4485317,29.4751984 C14.0844048,29.7223016 14.8111111,29.8913095 15.8751587,29.9398413 C16.9414286,29.9884921 17.2818651,30 19.9968651,30 C22.7118254,30 23.0522619,29.9884921 24.1185317,29.9398413 C25.1825794,29.8913095 25.9092857,29.7223016 26.5451587,29.4751984 C27.2025397,29.2197222 27.7600397,28.8778968 28.3158333,28.3221429 C28.8715873,27.7663492 29.2134127,27.2088492 29.4688889,26.5514683 C29.7159921,25.9155952 29.885,25.1888889 29.9335317,24.1248413 C29.9821825,23.0585714 29.9936905,22.7181349 29.9936905,20.0031746 C29.9936905,17.2881746 29.9821825,16.9477381 29.9335317,15.8814683 C29.885,14.8174206 29.7159921,14.0907143 29.4688889,13.4548413 C29.2134127,12.7974603 28.8715873,12.2399603 28.3158333,11.6841667 C27.7600397,11.1284127 27.2025397,10.7865873 26.5451587,10.5311508 C25.9092857,10.2840079 25.1825794,10.115 24.1185317,10.0664683 C23.0522619,10.0178175 22.7118254,10.0063095 19.9968651,10.0063095 Z M19.9968651,11.8075397 C22.6661111,11.8075397 22.9823016,11.8177381 24.0364286,11.8658333 C25.0111111,11.9102778 25.5404365,12.0731349 25.8926984,12.2100397 C26.3593254,12.3913889 26.6923413,12.6080159 27.0421429,12.9578571 C27.3919841,13.3076587 27.6086111,13.6406746 27.7899603,14.1073016 C27.9268651,14.4595635 28.0897222,14.9888889 28.1341667,15.9635714 C28.1822619,17.0176984 28.1924603,17.3338889 28.1924603,20.0031746 C28.1924603,22.6724206 28.1822619,22.9886111 28.1341667,24.0427381 C28.0897222,25.0174206 27.9268651,25.546746 27.7899603,25.8990079 C27.6086111,26.3656349 27.3919841,26.6986508 27.0421429,27.0484524 C26.6923413,27.3982937 26.3593254,27.6149206 25.8926984,27.7962698 C25.5404365,27.9331746 25.0111111,28.0960317 24.0364286,28.1404762 C22.9824603,28.1885714 22.6663095,28.1987698 19.9968651,28.1987698 C17.327381,28.1987698 17.0112698,28.1885714 15.9572619,28.1404762 C14.9825794,28.0960317 14.453254,27.9331746 14.1009921,27.7962698 C13.6343651,27.6149206 13.3013492,27.3982937 12.9515476,27.0484524 C12.601746,26.6986508 12.3850794,26.3656349 12.2037302,25.8990079 C12.0668254,25.546746 11.9039683,25.0174206 11.8595238,24.0427381 C11.8114286,22.9886111 11.8012302,22.6724206 11.8012302,20.0031746 C11.8012302,17.3338889 11.8114286,17.0176984 11.8595238,15.9635714 C11.9039683,14.9888889 12.0668254,14.4595635 12.2037302,14.1073016 C12.3850794,13.6406746 12.6017063,13.3076587 12.9515476,12.9578571 C13.3013492,12.6080159 13.6343651,12.3913889 14.1009921,12.2100397 C14.453254,12.0731349 14.9825794,11.9102778 15.9572619,11.8658333 C17.0113889,11.8177381 17.3275794,11.8075397 19.9968651,11.8075397 Z"
+        ></path>
+        <path
+          fill="#FFF"
+          fill-rule="evenodd"
+          class="eastendFooterSocialIcons_listItemSvgPath"
+          d="M19.9968651,23.3354365 C18.1564683,23.3354365 16.6645635,21.8435317 16.6645635,20.0031746 C16.6645635,18.1627778 18.1564683,16.670873 19.9968651,16.670873 C21.8372222,16.670873 23.329127,18.1627778 23.329127,20.0031746 C23.329127,21.8435317 21.8372222,23.3354365 19.9968651,23.3354365 Z M19.9968651,14.8696429 C22.8320238,14.8696429 25.1303571,17.1679762 25.1303571,20.0031746 C25.1303571,22.8383333 22.8320238,25.1366667 19.9968651,25.1366667 C17.1616667,25.1366667 14.8633333,22.8383333 14.8633333,20.0031746 C14.8633333,17.1679762 17.1616667,14.8696429 19.9968651,14.8696429 Z M26.5328175,14.6668254 C26.5328175,15.3293651 25.9957143,15.8664286 25.3331746,15.8664286 C24.6706746,15.8664286 24.1335714,15.3293651 24.1335714,14.6668254 C24.1335714,14.0042857 24.6706746,13.4671825 25.3331746,13.4671825 C25.9957143,13.4671825 26.5328175,14.0042857 26.5328175,14.6668254 Z"
+        ></path>
+      </svg>
+    </a>
+
+    <a href="./product.html">
+      <svg
+        class="eastendFooterSocialIcons_listItemSvg"
+        width="40px"
+        height="40px"
+        viewBox="0 0 40 40"
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+        <circle
+          id="Oval-2-Copy-2"
+          class="eastendFooter_fill_hover"
+          cx="20"
+          cy="20"
+          r="20"
+          fill="#64C3E2"
+        ></circle>
+        <path
+          class="eastendFooterSocialIcons_listItemSvgPath"
+          d="M27.3656846,14.7303293 C28.1998845,14.2311958 28.8399769,13.4385904 29.1415367,12.4969382 C28.3604853,12.9590988 27.4974003,13.2941652 26.5753899,13.4744079 C25.8405546,12.6910456 24.7902946,12.2 23.6279607,12.2 C21.3991912,12.2 19.5909879,14.0093588 19.5909879,16.2392837 C19.5909879,16.5558637 19.6256499,16.8632005 19.694974,17.1589832 C16.3385326,16.9891392 13.3633738,15.3842865 11.3703062,12.9371462 C11.0225303,13.5367995 10.8238013,14.2311958 10.8238013,14.9706528 C10.8238013,16.369844 11.536684,17.607279 12.6204506,18.3317158 C11.9595609,18.3120739 11.3356441,18.1295205 10.7902946,17.8279607 L10.7902946,17.877643 C10.7902946,19.8348931 12.1825534,21.4674754 14.0311958,21.8383593 C13.6926632,21.9331023 13.3356441,21.9804737 12.9670711,21.9804737 C12.7071057,21.9804737 12.4529174,21.9562103 12.2068169,21.9088388 C12.7209705,23.5125361 14.2114385,24.680647 15.9792028,24.7129983 C14.5973426,25.7956095 12.8549971,26.4414789 10.9636049,26.4414789 C10.6377816,26.4414789 10.3154246,26.4229925 10,26.3860196 C11.7874061,27.5310225 13.9110341,28.2 16.1906412,28.2 C23.6198729,28.2 27.6811092,22.0463316 27.6811092,16.7072213 C27.6811092,16.5327556 27.677643,16.3571346 27.6707106,16.1849798 C28.4598498,15.6153668 29.1450029,14.9047949 29.6845754,14.0937031 C28.961294,14.4160601 28.1825534,14.6321202 27.3656846,14.7303293 Z"
+          id="Twitter"
+          fill="#FFFFFF"
+        ></path>
+      </svg>
+    </a>
+
+    <a href="./product.html">
+      <svg
+        class="eastendFooterSocialIcons_listItemSvg"
+        xmlns="http://www.w3.org/2000/svg"
+        width="40"
+        height="40"
+        viewBox="0 0 40 40"
+      >
+        <g fill="none" fill-rule="evenodd">
+          <circle
+            class="eastendFooter_fill_hover"
+            cx="20"
+            cy="20"
+            r="20"
+            fill="#e60023"
+          ></circle>
+          <path
+            class="eastendFooterSocialIcons_listItemSvgPath"
+            fill="#FFF"
+            fill-rule="nonzero"
+            d="M14.8826768,30.8902697 C14.7041358,28.9614609 14.7139674,27.5758582 14.9121715,26.7334614 C15.1681851,25.6470494 16.5650521,19.8116647 16.5650521,19.8116647 C16.5650521,19.8116647 16.1438684,18.9782048 16.1438684,17.7437517 C16.1438684,15.808726 17.2788228,14.3632851 18.6933866,14.3632851 C19.8967687,14.3632851 20.4772236,15.2550289 20.4772236,16.3239557 C20.4772236,17.5187758 19.7068231,19.3045947 19.3092351,20.9610233 C18.9777151,22.3470146 20.0135675,23.4777224 21.3962771,23.4777224 C23.9009635,23.4777224 25.8275546,20.8677691 25.8275546,17.1002973 C25.8275546,13.7652922 23.4019139,11.4351016 19.939241,11.4351016 C15.9303271,11.4351016 13.5766533,14.4064152 13.5766533,17.4779771 C13.5766533,18.6751285 14.0426689,19.9573744 14.6254834,20.6556157 C14.7265339,20.7628604 14.7636516,20.9144161 14.7234056,21.0554432 C14.6160451,21.4960696 14.3777283,22.4414345 14.3317166,22.6349371 C14.2691879,22.889055 14.1276136,22.9438418 13.8598021,22.8202799 C12.0995609,22.0112993 11,19.4689553 11,17.4266872 C11,13.0332463 14.2290752,9 20.3108737,9 C25.1999082,9 29,12.4422475 29,17.0420134 C29,21.8411103 25.9384545,25.7041676 21.6865046,25.7041676 C20.2577833,25.7041676 18.9163663,24.9697904 18.4562496,24.1036916 C18.4562496,24.1036916 17.7495576,26.7637691 17.5784886,27.4142175 C17.3566887,28.2566142 16.5145231,29.7852084 15.0519915,32 L14.8826768,30.8902697 Z"
+          ></path>
+        </g>
+      </svg>
+    </a>
+    <a href="./product.html">
+      <svg
+        class="eastendFooterSocialIcons_listItemSvg"
+        xmlns="http://www.w3.org/2000/svg"
+        width="40"
+        height="40"
+        viewBox="0 0 40 40"
+      >
+        <circle
+          class="eastendFooter_fill_hover"
+          cx="20"
+          cy="20"
+          r="20"
+          fill="#FFFD65"
+        ></circle>
+        <path
+          class="eastendFooterSocialIcons_listItemSvgPath"
+          fill="#FFF"
+          fill-rule="nonzero"
+          stroke="#000"
+          d="M14.3430369,12.5616372 C13.7930369,13.8104867 14.0102869,16.0480088 14.0982869,17.6127876 C13.5042869,17.9463717 12.7416202,17.3609735 12.3098702,17.3609735 C11.8607036,17.3609735 11.3244536,17.660177 11.2401202,18.1061947 C11.1796202,18.4276991 11.3217036,18.8960177 12.3410369,19.3039381 C12.7352036,19.4619027 13.6729536,19.6477434 13.8902036,20.1662389 C14.1954536,20.8947345 12.3227036,24.2575221 9.3820369,24.7481416 C9.15195357,24.7862389 8.98787024,24.9943805 9.00070357,25.2303982 C9.0520369,26.1363717 11.0558702,26.4913274 11.9441202,26.630708 C12.0348702,26.7552212 12.1082036,27.2811504 12.2246202,27.6816372 C12.2768702,27.8609735 12.4116202,28.0756195 12.7581202,28.0756195 C13.2100369,28.0756195 13.9607869,27.7225221 15.2679536,27.9418142 C16.5494536,28.1583186 17.7539536,30 20.0667036,30 C22.2162869,30 23.4987036,28.1499558 24.7325369,27.9418142 C25.4466202,27.8219469 26.0598702,27.8600442 26.7455369,27.995708 C27.2176202,28.0895575 27.6411202,28.1415929 27.7758702,27.6714159 C27.8941202,27.265354 27.9665369,26.749646 28.0554536,26.6279204 C28.9354536,26.489469 30.9484536,26.1354425 30.9988702,25.229469 C31.0117036,24.9934513 30.8476202,24.7862389 30.6175369,24.7472124 C27.7263702,24.2640265 25.7967869,20.9114602 26.1093702,20.1653097 C26.3257036,19.6477434 27.2570369,19.4637611 27.6585369,19.3030088 C28.4047036,19.0047345 28.7787036,18.6376991 28.7704536,18.2130531 C28.7603702,17.669469 28.1150369,17.345177 27.6402036,17.345177 C27.1571202,17.345177 26.4632036,17.925 25.9012869,17.6109292 C25.9892869,16.0331416 26.2056202,13.8058407 25.6565369,12.5579204 C24.6161202,10.1949558 22.3015369,9 19.9878702,9 C17.6888702,9 15.3917036,10.1782301 14.3430369,12.5616372 Z"
+        ></path>
+      </svg>
+    </a>
+  </div>
+</section>
+
+<div id="footerPart"></div>
+
+
+ 
+
+
+
+  </body>
 </html>
-<script src="index.js" type="module"></script>
+<script src="./index.js" type="module"></script>
