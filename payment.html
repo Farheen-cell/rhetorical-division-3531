@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700&display=swap" rel="stylesheet">
+       
+        <style>
+*{
+    margin : 0 ;
+     padding : 0 ;
+      box-sizing : border-box;
+      font-weight: 700;
+      font-family: "Lato", Helvetica, Arial, sans-serif;
+      color: #333333;
+      
+}
+
+    body{
+        background-color: #F2F2F2;
+    }
+
+    .payment_navbar{
+        padding:  20px 20px 20px 220px;
+        background-color: #FFFFFF;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    .payment_container{
+        display: flex;
+        /* width: 70%; */
+        margin: 150px auto;
+        padding : 0 80px 0 200px;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .payment_container > div:first-child
+    {
+        padding: 25px;
+        background-color: #FFFFFF;
+        width: 60%;
+    }
+    .payment_container p{
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    .input__box{
+        width: 100%;
+        border: 1px solid #333333;
+        margin: 5px 0 5px 0;
+        border-radius: 5px;
+        height: 40px;
+    }
+
+    .input__spacing{
+        margin: 40px 0 0 0;
+    }
+    .header_spacing{
+        margin: 30px 0 20px 0;
+    }
+    input[type="checkbox"]{
+        margin: 15px 0 20px 0;
+    }
+
+    .payment_container button{
+        width: 100%;
+        border: none;
+        padding: 10px;
+        margin: 10px 0 0 0;
+        background-color: #333333;
+        color: #FFFFFF;
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    .payment_container button:hover{
+        
+        background-color: #27BDB7;
+        color: #333333;
+    }
+
+    .payment_container > div:first-child p:last-child{
+        margin: 15px 0 0 0;
+        font-size: 15px;
+        text-align: center;
+    }
+    
+
+
+
+
+
+
+
+
+.productdetails{
+    /* background-color: white; */
+    padding: 5px;
+   
+    /* height: 600px; */
+    
+    
+}
+
+.productdetails > div:first-child{
+    background-color: #FFFFFF;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    font-size: 14px;
+    /* border: 1px solid rgb(84, 80, 80); */
+}
+.order_no{
+    background-color: #FFFFFF;
+    padding: 10px;
+    font-weight: 100;
+    font-size: 14px;
+    /* border: 1px solid red; */
+}
+.order_delivery{
+    background-color: #FFFFFF;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    border-top: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    /* border: 1px solid red; */
+}
+
+.total_pay{
+    display: flex;
+    padding: 15px 10px;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 200;
+    background-color: #FFFFFF;
+    /* border: 1px solid red; */
+}
+
+.order_item_container{
+    background-color: #FFFFFF;
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    /* border: 1px solid red; */
+
+}
+
+.order_item_container > div{
+    display: flex;
+    padding: 10px;;
+    /* border: 1px solid red; */
+    flex-wrap: wrap;
+}
+
+.order_item_container > div > div {
+    /* display: flex; */
+    word-wrap: break-word;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.order_item_container div > div > img{
+    height: 50px;
+    width: 50px;
+    /* border: 1px solid red; */
+}
+
+.order_item_container p {
+    font-size: 13px;
+}
+
+        </style>
+    </head>
+    <body>
+        <nav class="payment_navbar">
+            <a href="./index.html">
+            <img src = "https://s1.thcdn.com/checkout/resources/images/e1ea488cfe9c3b7fc40c08ba4949b1c9.svg" />
+            </a>
+        </nav>
+
+
+        <section class="payment_container">
+            <div>
+                <h3>1. Email and delivery address</h3>
+                <p class="input__spacing">*Email address</p>
+                <input class="input__box"/>
+                <p>We'll send the purchase receipt to this email.</p>
+
+                <p class="input__spacing">*Country/Region</p>
+                <input class="input__box"/>
+                
+
+
+                <p class="input__spacing">*Full Name</p>
+                <input class="input__box"/>
+               
+
+
+
+                <p class="input__spacing">*Zip Code/Postcode</p>
+                <input class="input__box"/>
+            
+
+
+                <p class="input__spacing">*Company Name</p>
+                <input class="input__box"/>
+                
+
+
+
+                <p class="input__spacing">*Address</p>
+                <input class="input__box"/>
+               
+
+
+                <p class="input__spacing">*Address 2</p>
+                <input class="input__box"/>
+
+
+                <p class="input__spacing">*Contact Number</p>
+                <input class="input__box"/>
+                <p><u>Why do we need your number?</u></p>
+
+                <h3 class="header_spacing">2. Select Payment Method</h3>
+                <img src="https://s1.thcdn.com/checkout/resources/images/5ea52bff4335c6810730e818e701bdf5.svg" alt=""/>
+                    <img src="https://s1.thcdn.com/checkout/resources/images/57987be4eb98b4c77644d93d92df80fa.svg" alt=""/>
+                    <img src="https://s1.thcdn.com/checkout/resources/images/932e82ef072c7df18e91e66b96dfdf5d.svg" alt=""/>
+                    <img src="https://s1.thcdn.com/checkout/resources/images/6732c0137a7dab50b23daf1337fe2f30.svg" alt=""/>
+                    <img src="https://s1.thcdn.com/checkout/resources/images/c6b3c4b8eea09a08c22da2cef43e15a5.svg" alt=""/>
+
+                    <p class="input__spacing">*Name on Card</p>
+                    <input class="input__box"/>
+                    
+                    <p class="input__spacing">*Credit Card Number</p>
+                    <input class="input__box"/> 
+
+
+                    <p class="input__spacing">*Exp Month</p>
+                    <input class="input__box"/> 
+
+
+                    <p class="input__spacing">*Exp Year</p>
+                    <input class="input__box"/> 
+
+                    <p class="input__spacing">*CVV</p>
+                    <input class="input__box"/>
+
+                   
+                        <input class="header_spacing" type="checkbox" checked="checked"> Use my shipping address as my cardholder address</input>
+                    
+                     <button onclick="redirectSuccess()">SUBMIT MY ORDER</button>   
+                    
+                     <p>By placing this order, you are confirming that you agree to our <u>Terms and Conditions </u>&nbsp;and<br><u>Privacy Policy.</u></p>
+              
+                
+            </div>
+
+
+            <div class="productdetails">
+                <div class="">
+                    <p>Order Summary</p>
+                    <p id = "total_quant">0</p>
+                </div>
+                <div class="order_no">
+                    <p>Order Number: 402632476</p>
+                </div>
+    
+                <div class="order_item_container" id = "order_item_container">
+                 <!-- data append -->
+                </div>
+    
+                <div class="order_delivery">
+                    <p>Delivery</p>
+                    <p>Calculated at next step</p>
+                </div>
+    
+                <div class="total_pay">
+                    <p>Total to pay</p>
+                    <p id = "total_price_final">$0.00</p>
+                </div>
+    
+               
+            </div>
+        </section>
+        <script>
+           
+        </script>
+    </body>
+</html>
