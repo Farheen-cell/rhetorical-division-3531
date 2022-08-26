@@ -1,17 +1,6 @@
+
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login</title>
-    <link rel="stylesheet" href="login.css">
-</head>
-
-<body>
-    <!DOCTYPE html>
-    <html lang="en">
+ <html lang="en">
 
     <head>
         <meta charset="UTF-8" />
@@ -19,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Login</title>
         <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
-        <link rel="stylesheet" href="/css/login.css" />
+        <link rel="stylesheet" href="./login.css" />
     </head>
 
     <body>
@@ -32,14 +21,18 @@
             <div id="content">
                 <div id="main">
                     <h1>Existing Customers</h1>
-                    <form action="" id="form">
-                        <label for="email"><span id="star">*</span>Email address </label><br />
-                        <input type="text" required id="name" /><br />
-                        <label for="password"><span id="star">*</span>Password</label><br />
-                        <input type="Password" required id="password" /><br />
+                    <form  >
+                        <label ><span id="star">*</span>Email address </label><br />
+
+                        <input type="text" required  id="email" placeholder="Enter your email" /><br />
+
+                        <label ><span id="star">*</span>Password</label><br />
+
+                        <input type="Password" required    id="password" placeholder="Enter your password" /><br />
 
                         <a href="#">FORGOTTEN YOUR PASSWORD?</a><br />
-                        <input type="submit" value="SIGN IN" id="btn1" /><br />
+                        <button id="btn1">SIGN IN</button><br />
+                        
                     </form>
                     <p>Or, continue with</p>
                     <div id="icon">
@@ -65,7 +58,14 @@
         </div>
     </body>
 
-    </html>
-</body>
+
+
 
 </html>
+<script src="login.js">
+
+
+
+
+
+</script>

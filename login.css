@@ -62,7 +62,7 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
 }
 
-#form{
+form{
     display: flex;
     flex-direction: column;
     font-family: Lato, sans-serif;
@@ -76,13 +76,13 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     font-size:20px;
     color:grey; 
 }
-#form>label{
+form>label{
     color:#3d3d3d;
     font-weight:bold;
    
 }
 
-#form>input{
+form>input{
     height: 50px;
     border: 0.5px solid;
     border-radius: 5px;
@@ -91,24 +91,25 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     margin-top:0px;
     margin-bottom: 20px;
 }
-#form>input:hover{
+form>input:hover{
     border-color:black;
 }
-#form+p{
+form+p{
   font-size: 20px;
   
   
  
 }
-#form #btn1{
+form #btn1{
     background-color:#2E3337 ;
     font-size: 20px;
+    padding:10px ;
   font-weight: 5;
     color: white;
     border-radius: 0px;
 
 }
-#form #btn1:hover{
+form #btn1:hover{
     background-color: rgb(40,189,183);
     color: #2E3337;
 }
