@@ -101,6 +101,7 @@ let nevbar=()=>{
               type="text"
               placeholder="Search for a product or brand..."
               class="search-inputbody"
+              id="Search"
             />
           </div>
     

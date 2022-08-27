@@ -85,3 +85,30 @@ if(JSON.parse(localStorage.getItem('finalPrice')) !== null){
 }
 
 pricenavbarcart.innerText = priceStr;
+
+
+
+let serch=document.getElementById("Search");
+
+serch. addEventListener("keydown", function(event) {
+if (event. key === "Enter") {
+getData();
+}
+
+});
+
+function getData(){
+  let food=document.getElementById("Search").value;
+    let url=`http://makeup-api.herokuapp.com/api/v1/products.json?brand=${food}`;
+    fetch(url)
+    .then(function(res){
+        return res.json();
+    
+    })
+    .then(function(res){
+        console.log(res);
+        localStorage.setItem("brandsearch",JSON.stringify(res));
+         window.location.href="./Search.html";
+        //appenddata(res);
+    })
+    }
