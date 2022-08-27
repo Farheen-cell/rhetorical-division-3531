@@ -123,7 +123,7 @@ let nevbar=()=>{
                 <a href="./signup.html">REGISTER</a>
                 
                 </div>
-            <a href="" class="account--others">Wishlist</a>
+            <a href="wishlist.html" class="account--others">Wishlist</a>
             <a href="" class="account--others">Your Orders</a>
             <a href="" class="account--others">Your Referrals</a>
             
@@ -163,7 +163,7 @@ let nevbar=()=>{
         
         <div class="dropdown" >
            
-          <button class="dropbtn">Brands</button>
+          <button class="dropbtn"><a href="shop1.html">Brands</a></button>
           <div class="dropdown-content">
           <a href="#">Link 1</a>
           <a href="#">Link 2</a>
@@ -184,22 +184,22 @@ let nevbar=()=>{
     
         <div class="dropdown" >
            
-          <button class="dropbtn">Mother's Day</button>
+          <button class="dropbtn"><a href="shop2.html">Mother's Day</a></button>
           <div class="dropdown-content">
             <div>
               <h4>By Specific Concern</h4>   
-              <a href="./product.html">Acne & Blemishes</a>
-              <a href="./product.html">Fine Lines & Wrinkles</a>
-              <a href="./product.html">Caffeine</a>
-              <a href="./product.html">Dark Circles</a>
-              <a href="./product.html">Dry Skin</a>
-              <a href="./product.html">Dullness</a>
-              <a href="./product.html">Lack of Firmness</a>
-              <a href="./product.html">Pigmentation</a>
-              <a href="./product.html">Pregnancy Skincare</a>
-              <a href="./product.html">Redness & Rosacea</a>
-              <a href="./product.html">Sensitive Skin</a>
-              <a href="./product.html">Visible Poers</a>
+              <a href="./shop1.html">Acne & Blemishes</a>
+              <a href="./shop2.html">Fine Lines & Wrinkles</a>
+              <a href="./shop3.html">Caffeine</a>
+              <a href="./shop4.html">Dark Circles</a>
+              <a href="./shop5.html">Dry Skin</a>
+              <a href="./shop6.html">Dullness</a>
+              <a href="./shop1t.html">Lack of Firmness</a>
+              <a href="./shop2.html">Pigmentation</a>
+              <a href="./shop3.html">Pregnancy Skincare</a>
+              <a href="./shop4.html">Redness & Rosacea</a>
+              <a href="./shop5.html">Sensitive Skin</a>
+              <a href="./shop6.html">Visible Poers</a>
               </div>
           </div>
         </div>
@@ -207,52 +207,52 @@ let nevbar=()=>{
     
         <div class="dropdown" >
            
-          <button class="dropbtn">Build a Routine</button>
+          <button class="dropbtn"><a href="shop3.html">Build a Routine</a></button>
           <div class="dropdown-content">
             <div>
               <h4>By Specific Concern</h4>   
-              <a href="./product.html">Acne & Blemishes</a>
-              <a href="./product.html">Fine Lines & Wrinkles</a>
-              <a href="./product.html">Caffeine</a>
-              <a href="./product.html">Dark Circles</a>
-              <a href="./product.html">Dry Skin</a>
-              <a href="./product.html">Dullness</a>
-              <a href="./product.html">Lack of Firmness</a>
-              <a href="./product.html">Pigmentation</a>
-              <a href="./product.html">Pregnancy Skincare</a>
-              <a href="./product.html">Redness & Rosacea</a>
-              <a href="./product.html">Sensitive Skin</a>
-              <a href="./product.html">Visible Poers</a>
+              <a href="./shop1.html">Acne & Blemishes</a>
+              <a href="./shop2.html">Fine Lines & Wrinkles</a>
+              <a href="./shop3.html">Caffeine</a>
+              <a href="./shop4.html">Dark Circles</a>
+              <a href="./shop5.html">Dry Skin</a>
+              <a href="./shop1.html">Dullness</a>
+              <a href="./shop2.html">Lack of Firmness</a>
+              <a href="./shop3.html">Pigmentation</a>
+              <a href="./shop4.html">Pregnancy Skincare</a>
+              <a href="./shop5.html">Redness & Rosacea</a>
+              <a href="./shop6.html">Sensitive Skin</a>
+              <a href="./shop1.html">Visible Poers</a>
               </div>
               <div>
                 <h4>By Specific Concern</h4>   
-                <a href="./product.html">Acne & Blemishes</a>
-                <a href="./product.html">Fine Lines & Wrinkles</a>
-                <a href="./product.html">Caffeine</a>
-                <a href="./product.html">Dark Circles</a>
-                <a href="./product.html">Dry Skin</a>
-                <a href="./product.html">Dullness</a>
-                <a href="./product.html">Lack of Firmness</a>
-                <a href="./product.html">Pigmentation</a>
-                <a href="./product.html">Pregnancy Skincare</a>
-                <a href="./product.html">Redness & Rosacea</a>
-                <a href="./product.html">Sensitive Skin</a>
-                <a href="./product.html">Visible Pores</a>
+                <a href="./shop1.html">Acne & Blemishes</a>
+                <a href="./shop2.html">Fine Lines & Wrinkles</a>
+                <a href="./shop3.html">Caffeine</a>
+                <a href="./shop4.html">Dark Circles</a>
+                <a href="./shop5.html">Dry Skin</a>
+                <a href="./shop6.html">Dullness</a>
+                <a href="./shop1.html">Lack of Firmness</a>
+                <a href="./shop2.html">Pigmentation</a>
+                <a href="./shop3.html">Pregnancy Skincare</a>
+                <a href="./shop4.html">Redness & Rosacea</a>
+                <a href="./shop5.html">Sensitive Skin</a>
+                <a href="./shop6.html">Visible Pores</a>
                 </div>
                 <div>
                   <h4>By Specific Concern879098907</h4>   
-                  <a href="./product.html">Acne & Blemishes</a>
-                  <a href="./product.html">Fine Lines & Wrinkles</a>
-                  <a href="./product.html">Caffeine</a>
-                  <a href="./product.html">Dark Circles</a>
-                  <a href="./product.html">Dry Skin</a>
-                  <a href="./product.html">Dullness</a>
-                  <a href="./product.html">Lack of Firmness</a>
-                  <a href="./product.html">Pigmentation</a>
-                  <a href="./product.html">Pregnancy Skincare</a>
-                  <a href="./product.html">Redness & Rosacea</a>
-                  <a href="./product.html">Sensitive Skin</a>
-                  <a href="./product.html">Visible Poers</a>
+                  <a href="./shop1.html">Acne & Blemishes</a>
+                  <a href="./shop2.html">Fine Lines & Wrinkles</a>
+                  <a href="./shop3.html">Caffeine</a>
+                  <a href="./shop4.html">Dark Circles</a>
+                  <a href="./shop5.html">Dry Skin</a>
+                  <a href="./shop6.html">Dullness</a>
+                  <a href="./shop1.html">Lack of Firmness</a>
+                  <a href="./shop2.html">Pigmentation</a>
+                  <a href="./shop3.html">Pregnancy Skincare</a>
+                  <a href="./shop4.html">Redness & Rosacea</a>
+                  <a href="./shop5.html">Sensitive Skin</a>
+                  <a href="./shop6.html">Visible Poers</a>
                   </div>
           </div>
         </div>
@@ -261,86 +261,86 @@ let nevbar=()=>{
     
         <div class="dropdown" >
            
-          <button class="dropbtn">Skin Care</button>
+          <button class="dropbtn"><a href="shop4.html">Skin Care</a></button>
           <div class="dropdown-content">
     
         <div>
           <h4>Popular Categories</h4>   
-          <a href="./product.html">View All Skin Care</a>
-          <a href="./product.html">New In</a>
-          <a href="./product.html">Clean Skincare</a>
-          <a href="./product.html">5* Rated Product</a>
-          <a href="./product.html">Gifts & Sets</a>
-          <a href="./product.html">Supersizes & Duo</a>
-          <a href="./product.html">Travel Sizes</a>
+          <a href="./shop1.html">View All Skin Care</a>
+          <a href="./shop2.html">New In</a>
+          <a href="./shop3.html">Clean Skincare</a>
+          <a href="./shop4.html">5* Rated Product</a>
+          <a href="./shop5.html">Gifts & Sets</a>
+          <a href="./shop6.html">Supersizes & Duo</a>
+          <a href="./shop1.html">Travel Sizes</a>
            
           </div>
     
           <div>
             <h4>By Product Type</h4>   
-            <a href="./product.html">Cleansers</a>
-            <a href="./product.html">Moisturizers</a>
-            <a href="./product.html">Serums</a>
-            <a href="./product.html">Eye Serum</a>
-            <a href="./product.html">Exfoliators</a>
-            <a href="./product.html">Masks</a>
-            <a href="./product.html">Eye Care</a>
-            <a href="./product.html">Toners</a>
-            <a href="./product.html">Lip Care</a>
-            <a href="./product.html">Oils</a>
-            <a href="./product.html">Treatments</a>
-            <a href="./product.html">Mists</a>
-            <a href="./product.html">Self Tanning</a>
-            <a href="./product.html">Tools</a>
+            <a href="./shop1.html">Cleansers</a>
+            <a href="./shop2.html">Moisturizers</a>
+            <a href="./shop3.html">Serums</a>
+            <a href="./shop4.html">Eye Serum</a>
+            <a href="./shop5.html">Exfoliators</a>
+            <a href="./shop6.html">Masks</a>
+            <a href="./shop1.html">Eye Care</a>
+            <a href="./shop2.html">Toners</a>
+            <a href="./shop3.html">Lip Care</a>
+            <a href="./shop4.html">Oils</a>
+            <a href="./shop5.html">Treatments</a>
+            <a href="./shop6.html">Mists</a>
+            <a href="./shop1.html">Self Tanning</a>
+            <a href="./shop2.html">Tools</a>
             </div>
           
             
             <div>
               <h4>By Ingredient</h4>   
-              <a href="./product.html">Vitamin C</a>
-              <a href="./product.html">AHA</a>
-              <a href="./product.html">Caffeine</a>
-              <a href="./product.html">Retinol</a>
-              <a href="./product.html">Hyaluronic Acid</a>
-              <a href="./product.html">Niacinamide</a>
-              <a href="./product.html">Lactic Acid</a>
-              <a href="./product.html">Salicylic Acid</a>
-              <a href="./product.html">Glycolic Acid</a>
-              <a href="./product.html">Azelaic Acid</a>
+              <a href="./shop1.html">Vitamin C</a>
+              <a href="./shop2.html">AHA</a>
+              <a href="./shop3.html">Caffeine</a>
+              <a href="./shop4.html">Retinol</a>
+              <a href="./shop5.html">Hyaluronic Acid</a>
+              <a href="./shop6.html">Niacinamide</a>
+              <a href="./shop1.html">Lactic Acid</a>
+              <a href="./shop2.html">Salicylic Acid</a>
+              <a href="./shop3.html">Glycolic Acid</a>
+              <a href="./shop4.html">Azelaic Acid</a>
               </div>
     
     
     
               <div>
                 <h4>By Specific Concern</h4>   
-                <a href="./product.html">Acne & Blemishes</a>
-                <a href="./product.html">Fine Lines & Wrinkles</a>
-                <a href="./product.html">Caffeine</a>
-                <a href="./product.html">Dark Circles</a>
-                <a href="./product.html">Dry Skin</a>
-                <a href="./product.html">Dullness</a>
-                <a href="./product.html">Lack of Firmness</a>
-                <a href="./product.html">Pigmentation</a>
-                <a href="./product.html">Pregnancy Skincare</a>
-                <a href="./product.html">Redness & Rosacea</a>
-                <a href="./product.html">Sensitive Skin</a>
-                <a href="./product.html">Visible Poers</a>
+                <a href="./shop1.html">Acne & Blemishes</a>
+                <a href="./shop2.html">Fine Lines & Wrinkles</a>
+                <a href="./shop3.html">Caffeine</a>
+                <a href="./shop4.html">Dark Circles</a>
+                <a href="./shop5.html">Dry Skin</a>
+                <a href="./shop6.html">Dullness</a>
+                <a href="./shop1.html">Lack of Firmness</a>
+                <a href="./shop2.html">Pigmentation</a>
+                <a href="./shop3.html">Pregnancy Skincare</a>
+                <a href="./shop4.html">Redness & Rosacea</a>
+                <a href="./shop5.html">Sensitive Skin</a>
+                <a href="./shop6.html">Visible Poers</a>
                 </div>
     
                 <div>
                   <h4>By Specific Concern</h4>   
-                  <a href="./product.html">Acne & Blemishes</a>
-                  <a href="./product.html">Fine Lines & Wrinkles</a>
-                  <a href="./product.html">Caffeine</a>
-                  <a href="./product.html">Dark Circles</a>
-                  <a href="./product.html">Dry Skin</a>
-                  <a href="./product.html">Dullness</a>
-                  <a href="./product.html">Lack of Firmness</a>
-                  <a href="./product.html">Pigmentation</a>
-                  <a href="./product.html">Pregnancy Skincare</a>
-                  <a href="./product.html">Redness & Rosacea</a>
-                  <a href="./product.html">Sensitive Skin</a>
-                  <a href="./product.html">Visible Pores</a>
+                  <a href="./shop1.html">Acne & Blemishes</a>
+                  <a href="./shop2.html">Fine Lines & Wrinkles</a>
+                  <a href="./shop3.html">Caffeine</a>
+                  <a href="./shop4.html">Dark Circles</a>
+                  <a href="./shop5.html">Dry Skin</a>
+                  <a href="./shop6.html">Dullness</a>
+                  <a href="./shop1.html">Lack of Firmness</a>
+                  <a href="./shop2.html">Pigmentation</a>
+                  <a href="./shop3.html">Pregnancy Skincare</a>
+                  <a href="./shop4.html">Redness & Rosacea</a>
+                  <a href="./shop5.html">Sensitive Skin</a>
+                  <a href="./shop6.html">Visible Pores</a>
                   </div>
           </div>
          
@@ -350,85 +350,85 @@ let nevbar=()=>{
     
         <div class="dropdown" >
            
-          <button class="dropbtn">Hair</button>
+          <button class="dropbtn"><a href="shop5.html">Hair</a></button>
           <div class="dropdown-content">
             <div>
               <h4>Popular Categories</h4>   
-              <a href="./product.html">View All Skin Care</a>
-              <a href="./product.html">New In</a>
-              <a href="./product.html">Clean Skincare</a>
-              <a href="./product.html">5* Rated Product</a>
-              <a href="./product.html">Gifts & Sets</a>
-              <a href="./product.html">Supersizes & Duo</a>
-              <a href="./product.html">Travel Sizes</a>
+              <a href="./shop1.html">View All Skin Care</a>
+              <a href="./shop2.html">New In</a>
+              <a href="./shop3.html">Clean Skincare</a>
+              <a href="./shop4.html">5* Rated Product</a>
+              <a href="./shop5.html">Gifts & Sets</a>
+              <a href="./shop6.html">Supersizes & Duo</a>
+              <a href="./shop1.html">Travel Sizes</a>
                
               </div>
     
               <div>
                 <h4>By Product Type</h4>   
-                <a href="./product.html">Cleansers</a>
-                <a href="./product.html">Moisturizers</a>
-                <a href="./product.html">Serums</a>
-                <a href="./product.html">Eye Serum</a>
-                <a href="./product.html">Exfoliators</a>
-                <a href="./product.html">Masks</a>
-                <a href="./product.html">Eye Care</a>
-                <a href="./product.html">Toners</a>
-                <a href="./product.html">Lip Care</a>
-                <a href="./product.html">Oils</a>
-                <a href="./product.html">Treatments</a>
-                <a href="./product.html">Mists</a>
-                <a href="./product.html">Self Tanning</a>
-                <a href="./product.html">Tools</a>
+                <a href="./shop1.html">Cleansers</a>
+                <a href="./shop2.html">Moisturizers</a>
+                <a href="./shop3.html">Serums</a>
+                <a href="./shop4.html">Eye Serum</a>
+                <a href="./shop5.html">Exfoliators</a>
+                <a href="./shop6.html">Masks</a>
+                <a href="./shop1.html">Eye Care</a>
+                <a href="./shop2.html">Toners</a>
+                <a href="./shop3.html">Lip Care</a>
+                <a href="./shop4.html">Oils</a>
+                <a href="./shop5.html">Treatments</a>
+                <a href="./shop6.html">Mists</a>
+                <a href="./shop1.html">Self Tanning</a>
+                <a href="./shop2.html">Tools</a>
                 </div>
               
                 
                 <div>
                   <h4>By Ingredient</h4>   
-                  <a href="./product.html">Vitamin C</a>
-                  <a href="./product.html">AHA</a>
-                  <a href="./product.html">Caffeine</a>
-                  <a href="./product.html">Retinol</a>
-                  <a href="./product.html">Hyaluronic Acid</a>
-                  <a href="./product.html">Niacinamide</a>
-                  <a href="./product.html">Lactic Acid</a>
-                  <a href="./product.html">Salicylic Acid</a>
-                  <a href="./product.html">Glycolic Acid</a>
-                  <a href="./product.html">Azelaic Acid</a>
+                  <a href="./shop1.html">Vitamin C</a>
+                  <a href="./shop2.html">AHA</a>
+                  <a href="./shop3.html">Caffeine</a>
+                  <a href="./shop4.html">Retinol</a>
+                  <a href="./shop5.html">Hyaluronic Acid</a>
+                  <a href="./shop6.html">Niacinamide</a>
+                  <a href="./shop1.html">Lactic Acid</a>
+                  <a href="./shop2.html">Salicylic Acid</a>
+                  <a href="./shop3.html">Glycolic Acid</a>
+                  <a href="./shop4.html">Azelaic Acid</a>
                   </div>
     
     
     
                   <div>
                     <h4>By Specific Concern</h4>   
-                    <a href="./product.html">Acne & Blemishes</a>
-                    <a href="./product.html">Fine Lines & Wrinkles</a>
-                    <a href="./product.html">Caffeine</a>
-                    <a href="./product.html">Dark Circles</a>
-                    <a href="./product.html">Dry Skin</a>
-                    <a href="./product.html">Dullness</a>
-                    <a href="./product.html">Lack of Firmness</a>
-                    <a href="./product.html">Pigmentation</a>
-                    <a href="./product.html">Pregnancy Skincare</a>
-                    <a href="./product.html">Redness & Rosacea</a>
-                    <a href="./product.html">Sensitive Skin</a>
-                    <a href="./product.html">Visible Poers</a>
+                    <a href="./shop1.html">Acne & Blemishes</a>
+                    <a href="./shop2.html">Fine Lines & Wrinkles</a>
+                    <a href="./shop3.html">Caffeine</a>
+                    <a href="./shop4.html">Dark Circles</a>
+                    <a href="./shop5.html">Dry Skin</a>
+                    <a href="./shop6.html">Dullness</a>
+                    <a href="./shop1.html">Lack of Firmness</a>
+                    <a href="./shop2.html">Pigmentation</a>
+                    <a href="./shop3.html">Pregnancy Skincare</a>
+                    <a href="./shop4.html">Redness & Rosacea</a>
+                    <a href="./shop5.html">Sensitive Skin</a>
+                    <a href="./shop6.html">Visible Poers</a>
                     </div>
     
                     <div>
                       <h4>By Specific Concern</h4>   
-                      <a href="./product.html">Acne & Blemishes</a>
-                      <a href="./product.html">Fine Lines & Wrinkles</a>
-                      <a href="./product.html">Caffeine</a>
-                      <a href="./product.html">Dark Circles</a>
-                      <a href="./product.html">Dry Skin</a>
-                      <a href="./product.html">Dullness</a>
-                      <a href="./product.html">Lack of Firmness</a>
-                      <a href="./product.html">Pigmentation</a>
-                      <a href="./product.html">Pregnancy Skincare</a>
-                      <a href="./product.html">Redness & Rosacea</a>
-                      <a href="./product.html">Sensitive Skin</a>
-                      <a href="./product.html">Visible Poers</a>
+                      <a href="./shop1.html">Acne & Blemishes</a>
+                      <a href="./shop2.html">Fine Lines & Wrinkles</a>
+                      <a href="./shop3.html">Caffeine</a>
+                      <a href="./shop4.html">Dark Circles</a>
+                      <a href="./shop5.html">Dry Skin</a>
+                      <a href="./shop6.html">Dullness</a>
+                      <a href="./shop1.html">Lack of Firmness</a>
+                      <a href="./shop2.html">Pigmentation</a>
+                      <a href="./shop3.html">Pregnancy Skincare</a>
+                      <a href="./shop4.html">Redness & Rosacea</a>
+                      <a href="./shop5.html">Sensitive Skin</a>
+                      <a href="./shop6.html">Visible Poers</a>
                       </div>
           </div>
         </div>
@@ -436,75 +436,75 @@ let nevbar=()=>{
     
         <div class="dropdown" >
            
-          <button class="dropbtn">Makeup</button>
+          <button class="dropbtn"><a href="shop6.html">Makeup</a></button>
           <div class="dropdown-content">
             
     
               <div>
                 <h4>By Product Type</h4>   
-                <a href="./product.html">Cleansers</a>
-                <a href="./product.html">Moisturizers</a>
-                <a href="./product.html">Serums</a>
-                <a href="./product.html">Eye Serum</a>
-                <a href="./product.html">Exfoliators</a>
-                <a href="./product.html">Masks</a>
-                <a href="./product.html">Eye Care</a>
-                <a href="./product.html">Toners</a>
-                <a href="./product.html">Lip Care</a>
-                <a href="./product.html">Oils</a>
-                <a href="./product.html">Treatments</a>
-                <a href="./product.html">Mists</a>
-                <a href="./product.html">Self Tanning</a>
-                <a href="./product.html">Tools</a>
+                <a href="./shop1.html">Cleansers</a>
+                <a href="./shop2.html">Moisturizers</a>
+                <a href="./shop3.html">Serums</a>
+                <a href="./shop4.html">Eye Serum</a>
+                <a href="./shop5.html">Exfoliators</a>
+                <a href="./shop6.html">Masks</a>
+                <a href="./shop1.html">Eye Care</a>
+                <a href="./shop2.html">Toners</a>
+                <a href="./shop3.html">Lip Care</a>
+                <a href="./shop4.html">Oils</a>
+                <a href="./shop5.html">Treatments</a>
+                <a href="./shop6.html">Mists</a>
+                <a href="./shop1.html">Self Tanning</a>
+                <a href="./shop2.html">Tools</a>
                 </div>
               
                 
                 <div>
                   <h4>By Ingredient</h4>   
-                  <a href="./product.html">Vitamin C</a>
-                  <a href="./product.html">AHA</a>
-                  <a href="./product.html">Caffeine</a>
-                  <a href="./product.html">Retinol</a>
-                  <a href="./product.html">Hyaluronic Acid</a>
-                  <a href="./product.html">Niacinamide</a>
-                  <a href="./product.html">Lactic Acid</a>
-                  <a href="./product.html">Salicylic Acid</a>
-                  <a href="./product.html">Glycolic Acid</a>
-                  <a href="./product.html">Azelaic Acid</a>
+                  <a href="./shop1.html">Vitamin C</a>
+                  <a href="./shop1.html">AHA</a>
+                  <a href="./shop1.html">Caffeine</a>
+                  <a href="./shop1.html">Retinol</a>
+                  <a href="./shop1.html">Hyaluronic Acid</a>
+                  <a href="./shop1.html">Niacinamide</a>
+                  <a href="./shop1.html">Lactic Acid</a>
+                  <a href="./shop1.html">Salicylic Acid</a>
+                  <a href="./shop1.html">Glycolic Acid</a>
+                  <a href="./shop1.html">Azelaic Acid</a>
                   </div>
     
     
     
                   <div>
                     <h4>By Specific Concern</h4>   
-                    <a href="./product.html">Acne & Blemishes</a>
-                    <a href="./product.html">Fine Lines & Wrinkles</a>
-                    <a href="./product.html">Caffeine</a>
-                    <a href="./product.html">Dark Circles</a>
-                    <a href="./product.html">Dry Skin</a>
-                    <a href="./product.html">Dullness</a>
-                    <a href="./product.html">Lack of Firmness</a>
-                    <a href="./product.html">Pigmentation</a>
-                    <a href="./product.html">Pregnancy Skincare</a>
-                    <a href="./product.html">Redness & Rosacea</a>
-                    <a href="./product.html">Sensitive Skin</a>
-                    <a href="./product.html">Visible Poers</a>
+                    <a href="./shop1.html">Acne & Blemishes</a>
+                    <a href="./shop2.html">Fine Lines & Wrinkles</a>
+                    <a href="./shop3.html">Caffeine</a>
+                    <a href="./shop4.html">Dark Circles</a>
+                    <a href="./shop5.html">Dry Skin</a>
+                    <a href="./shop6.html">Dullness</a>
+                    <a href="./shop1.html">Lack of Firmness</a>
+                    <a href="./shop2.html">Pigmentation</a>
+                    <a href="./shop3.html">Pregnancy Skincare</a>
+                    <a href="./shop4.html">Redness & Rosacea</a>
+                    <a href="./shop5.html">Sensitive Skin</a>
+                    <a href="./shop6.html">Visible Poers</a>
                     </div>
     
                     <div>
                       <h4>By Specific Concern</h4>   
-                      <a href="./product.html">Acne & Blemishes</a>
-                      <a href="./product.html">Fine Lines & Wrinkles</a>
-                      <a href="./product.html">Caffeine</a>
-                      <a href="./product.html">Dark Circles</a>
-                      <a href="./product.html">Dry Skin</a>
-                      <a href="./product.html">Dullness</a>
-                      <a href="./product.html">Lack of Firmness</a>
-                      <a href="./product.html">Pigmentation</a>
-                      <a href="./product.html">Pregnancy Skincare</a>
-                      <a href="./product.html">Redness & Rosacea</a>
-                      <a href="./product.html">Sensitive Skin</a>
-                      <a href="./product.html">Visible Poers</a>
+                      <a href="./shop1.html">Acne & Blemishes</a>
+                      <a href="./shop2.html">Fine Lines & Wrinkles</a>
+                      <a href="./shop3.html">Caffeine</a>
+                      <a href="./shop4.html">Dark Circles</a>
+                      <a href="./shop5.html">Dry Skin</a>
+                      <a href="./shop6.html">Dullness</a>
+                      <a href="./shop1.html">Lack of Firmness</a>
+                      <a href="./shop2.html">Pigmentation</a>
+                      <a href="./shop3.html">Pregnancy Skincare</a>
+                      <a href="./shop4.html">Redness & Rosacea</a>
+                      <a href="./shop5.html">Sensitive Skin</a>
+                      <a href="./shop6.html">Visible Poers</a>
                       </div>
           </div>
         </div>
@@ -512,7 +512,7 @@ let nevbar=()=>{
     
         <div class="dropdown" >
            
-          <button class="dropbtn">Tools</button>
+          <button class="dropbtn"><a href="shop1.html">Tools</a></button>
           <div class="dropdown-content">
            
     
@@ -520,50 +520,52 @@ let nevbar=()=>{
                 
                 <div>
                   <h4>By Ingredient</h4>   
-                  <a href="./product.html">Vitamin C</a>
-                  <a href="./product.html">AHA</a>
-                  <a href="./product.html">Caffeine</a>
-                  <a href="./product.html">Retinol</a>
-                  <a href="./product.html">Hyaluronic Acid</a>
-                  <a href="./product.html">Niacinamide</a>
-                  <a href="./product.html">Lactic Acid</a>
-                  <a href="./product.html">Salicylic Acid</a>
-                  <a href="./product.html">Glycolic Acid</a>
-                  <a href="./product.html">Azelaic Acid</a>
+                  <a href="./shop1.html">Acne & Blemishes</a>
+                  <a href="./shop2.html">Fine Lines & Wrinkles</a>
+                  <a href="./shop3.html">Caffeine</a>
+                  <a href="./shop4.html">Dark Circles</a>
+                  <a href="./shop5.html">Dry Skin</a>
+                  <a href="./shop6.html">Dullness</a>
+                  <a href="./shop1.html">Lack of Firmness</a>
+                  <a href="./shop2.html">Pigmentation</a>
+                  <a href="./shop3.html">Pregnancy Skincare</a>
+                  <a href="./shop4.html">Redness & Rosacea</a>
+                  <a href="./shop5.html">Sensitive Skin</a>
+                  <a href="./shop6.html">Visible Poers</a
                   </div>
     
     
     
                   <div>
                     <h4>By Specific Concern</h4>   
-                    <a href="./product.html">Acne & Blemishes</a>
-                    <a href="./product.html">Fine Lines & Wrinkles</a>
-                    <a href="./product.html">Caffeine</a>
-                    <a href="./product.html">Dark Circles</a>
-                    <a href="./product.html">Dry Skin</a>
-                    <a href="./product.html">Dullness</a>
-                    <a href="./product.html">Lack of Firmness</a>
-                    <a href="./product.html">Pigmentation</a>
-                    <a href="./product.html">Pregnancy Skincare</a>
-                    <a href="./product.html">Redness & Rosacea</a>
-                    <a href="./product.html">Sensitive Skin</a>
-                    <a href="./product.html">Visible Poers</a>
+                    <a href="./shop1.html">Acne & Blemishes</a>
+                    <a href="./shop2.html">Fine Lines & Wrinkles</a>
+                    <a href="./shop3.html">Caffeine</a>
+                    <a href="./shop4.html">Dark Circles</a>
+                    <a href="./shop5.html">Dry Skin</a>
+                    <a href="./shop6.html">Dullness</a>
+                    <a href="./shop1.html">Lack of Firmness</a>
+                    <a href="./shop2.html">Pigmentation</a>
+                    <a href="./shop3.html">Pregnancy Skincare</a>
+                    <a href="./shop4.html">Redness & Rosacea</a>
+                    <a href="./shop5.html">Sensitive Skin</a>
+                    <a href="./shop6.html">Visible Poers</a>
                     </div>
     
                     <div>
                       <h4>By Specific Concern</h4>   
-                      <a href="./product.html">Acne & Blemishes</a>
-                      <a href="./product.html">Fine Lines & Wrinkles</a>
-                      <a href="./product.html">Caffeine</a>
-                      <a href="./product.html">Dark Circles</a>
-                      <a href="./product.html">Dry Skin</a>
-                      <a href="./product.html">Dullness</a>
-                      <a href="./product.html">Lack of Firmness</a>
-                      <a href="./product.html">Pigmentation</a>
-                      <a href="./product.html">Pregnancy Skincare</a>
-                      <a href="./product.html">Redness & Rosacea</a>
-                      <a href="./product.html">Sensitive Skin</a>
-                      <a href="./product.html">Visible Poers</a>
+                      <a href="./shop1.html">Acne & Blemishes</a>
+                      <a href="./shop2.html">Fine Lines & Wrinkles</a>
+                      <a href="./shop3.html">Caffeine</a>
+                      <a href="./shop4.html">Dark Circles</a>
+                      <a href="./shop5.html">Dry Skin</a>
+                      <a href="./shop6.html">Dullness</a>
+                      <a href="./shop1.html">Lack of Firmness</a>
+                      <a href="./shop2.html">Pigmentation</a>
+                      <a href="./shop3.html">Pregnancy Skincare</a>
+                      <a href="./shop4.html">Redness & Rosacea</a>
+                      <a href="./shop5.html">Sensitive Skin</a>
+                      <a href="./shop6.html">Visible Poers</a>
                       </div>
           </div>
         </div>
@@ -571,162 +573,88 @@ let nevbar=()=>{
     
         <div class="dropdown" >
            
-          <button class="dropbtn">Bath & Body</button>
+          <button class="dropbtn"><a href="shop2.html">Bath & Body</a></button>
           <div class="dropdown-content">
             <div>
               <h4>Popular Categories</h4>   
-              <a href="./product.html">View All Skin Care</a>
-              <a href="./product.html">New In</a>
-              <a href="./product.html">Clean Skincare</a>
-              <a href="./product.html">5* Rated Product</a>
-              <a href="./product.html">Gifts & Sets</a>
-              <a href="./product.html">Supersizes & Duo</a>
-              <a href="./product.html">Travel Sizes</a>
+              <a href="./shop1.html">Vitamin C</a>
+                  <a href="./shop2.html">AHA</a>
+                  <a href="./shop3.html">Caffeine</a>
+                  <a href="./shop4.html">Retinol</a>
+                  <a href="./shop5.html">Hyaluronic Acid</a>
+                  <a href="./shop6.html">Niacinamide</a>
+                  <a href="./shop1.html">Lactic Acid</a>
+                  <a href="./shop2.html">Salicylic Acid</a>
+                  <a href="./shop1.html">Glycolic Acid</a>
+                  <a href="./shop3.html">Azelaic Acid</a>
                
               </div>
     
               <div>
                 <h4>By Product Type</h4>   
-                <a href="./product.html">Cleansers</a>
-                <a href="./product.html">Moisturizers</a>
-                <a href="./product.html">Serums</a>
-                <a href="./product.html">Eye Serum</a>
-                <a href="./product.html">Exfoliators</a>
-                <a href="./product.html">Masks</a>
-                <a href="./product.html">Eye Care</a>
-                <a href="./product.html">Toners</a>
-                <a href="./product.html">Lip Care</a>
-                <a href="./product.html">Oils</a>
-                <a href="./product.html">Treatments</a>
-                <a href="./product.html">Mists</a>
-                <a href="./product.html">Self Tanning</a>
-                <a href="./product.html">Tools</a>
+                <a href="./shop1.html">Cleansers</a>
+                <a href="./shop1.html">Moisturizers</a>
+                <a href="./shop1.html">Serums</a>
+                <a href="./shop1.html">Eye Serum</a>
+                <a href="./shop1.html">Exfoliators</a>
+                <a href="./shop1.html">Masks</a>
+                <a href="./shop1.html">Eye Care</a>
+                <a href="./shop1.html">Toners</a>
+                <a href="./shop1.html">Lip Care</a>
+                <a href="./shop1.html">Oils</a>
+                <a href="./shop1.html">Treatments</a>
+                <a href="./shop1.html">Mists</a>
+                <a href="./shop1.html">Self Tanning</a>
+                <a href="./shop1.html">Tools</a>
                 </div>
               
                 
                 <div>
                   <h4>By Ingredient</h4>   
-                  <a href="./product.html">Vitamin C</a>
-                  <a href="./product.html">AHA</a>
-                  <a href="./product.html">Caffeine</a>
-                  <a href="./product.html">Retinol</a>
-                  <a href="./product.html">Hyaluronic Acid</a>
-                  <a href="./product.html">Niacinamide</a>
-                  <a href="./product.html">Lactic Acid</a>
-                  <a href="./product.html">Salicylic Acid</a>
-                  <a href="./product.html">Glycolic Acid</a>
-                  <a href="./product.html">Azelaic Acid</a>
+                  <a href="./shop1.html">Vitamin C</a>
+                  <a href="./shop2.html">AHA</a>
+                  <a href="./shop3.html">Caffeine</a>
+                  <a href="./shop4.html">Retinol</a>
+                  <a href="./shop5.html">Hyaluronic Acid</a>
+                  <a href="./shop6.html">Niacinamide</a>
+                  <a href="./shop1.html">Lactic Acid</a>
+                  <a href="./shop2.html">Salicylic Acid</a>
+                  <a href="./shop1.html">Glycolic Acid</a>
+                  <a href="./shop3.html">Azelaic Acid</a>
                   </div>
     
     
     
                   <div>
                     <h4>By Specific Concern</h4>   
-                    <a href="./product.html">Acne & Blemishes</a>
-                    <a href="./product.html">Fine Lines & Wrinkles</a>
-                    <a href="./product.html">Caffeine</a>
-                    <a href="./product.html">Dark Circles</a>
-                    <a href="./product.html">Dry Skin</a>
-                    <a href="./product.html">Dullness</a>
-                    <a href="./product.html">Lack of Firmness</a>
-                    <a href="./product.html">Pigmentation</a>
-                    <a href="./product.html">Pregnancy Skincare</a>
-                    <a href="./product.html">Redness & Rosacea</a>
-                    <a href="./product.html">Sensitive Skin</a>
-                    <a href="./product.html">Visible Poers</a>
+                    <a href="./shop1.html">Acne & Blemishes</a>
+                    <a href="./shop2.html">Fine Lines & Wrinkles</a>
+                    <a href="./shop3.html">Caffeine</a>
+                    <a href="./shop4.html">Dark Circles</a>
+                    <a href="./shop5.html">Dry Skin</a>
+                    <a href="./shop6.html">Dullness</a>
+                    <a href="./shop1.html">Lack of Firmness</a>
+                    <a href="./shop2.html">Pigmentation</a>
+                    <a href="./shop3.html">Pregnancy Skincare</a>
+                    <a href="./shop4.html">Redness & Rosacea</a>
+                    <a href="./shop5.html">Sensitive Skin</a>
+                    <a href="./shop6.html">Visible Poers</a>
                     </div>
     
                     <div>
                       <h4>By Specific Concern</h4>   
-                      <a href="./product.html">Acne & Blemishes</a>
-                      <a href="./product.html">Fine Lines & Wrinkles</a>
-                      <a href="./product.html">Caffeine</a>
-                      <a href="./product.html">Dark Circles</a>
-                      <a href="./product.html">Dry Skin</a>
-                      <a href="./product.html">Dullness</a>
-                      <a href="./product.html">Lack of Firmness</a>
-                      <a href="./product.html">Pigmentation</a>
-                      <a href="./product.html">Pregnancy Skincare</a>
-                      <a href="./product.html">Redness & Rosacea</a>
-                      <a href="./product.html">Sensitive Skin</a>
-                      <a href="./product.html">Visible Poers</a>
-                      </div>
-          </div>
-        </div>
-    
-    
-    
-        <div class="dropdown" >
-           
-          <button class="dropbtn">Self-Care</button>
-          <div class="dropdown-content">
-           
-    
-              <div>
-                <h4>By Product Type</h4>   
-                <a href="./product.html">Cleansers</a>
-                <a href="./product.html">Moisturizers</a>
-                <a href="./product.html">Serums</a>
-                <a href="./product.html">Eye Serum</a>
-                <a href="./product.html">Exfoliators</a>
-                <a href="./product.html">Masks</a>
-                <a href="./product.html">Eye Care</a>
-                <a href="./product.html">Toners</a>
-                <a href="./product.html">Lip Care</a>
-                <a href="./product.html">Oils</a>
-                <a href="./product.html">Treatments</a>
-                <a href="./product.html">Mists</a>
-                <a href="./product.html">Self Tanning</a>
-                <a href="./product.html">Tools</a>
-                </div>
-              
-                
-                <div>
-                  <h4>By Ingredient</h4>   
-                  <a href="./product.html">Vitamin C</a>
-                  <a href="./product.html">AHA</a>
-                  <a href="./product.html">Caffeine</a>
-                  <a href="./product.html">Retinol</a>
-                  <a href="./product.html">Hyaluronic Acid</a>
-                  <a href="./product.html">Niacinamide</a>
-                  <a href="./product.html">Lactic Acid</a>
-                  <a href="./product.html">Salicylic Acid</a>
-                  <a href="./product.html">Glycolic Acid</a>
-                  <a href="./product.html">Azelaic Acid</a>
-                  </div>
-    
-    
-    
-                  <div>
-                    <h4>By Specific Concern</h4>   
-                    <a href="./product.html">Acne & Blemishes</a>
-                    <a href="./product.html">Fine Lines & Wrinkles</a>
-                    <a href="./product.html">Caffeine</a>
-                    <a href="./product.html">Dark Circles</a>
-                    <a href="./product.html">Dry Skin</a>
-                    <a href="./product.html">Dullness</a>
-                    <a href="./product.html">Lack of Firmness</a>
-                    <a href="./product.html">Pigmentation</a>
-                    <a href="./product.html">Pregnancy Skincare</a>
-                    <a href="./product.html">Redness & Rosacea</a>
-                    <a href="./product.html">Sensitive Skin</a>
-                    <a href="./product.html">Visible Poers</a>
-                    </div>
-    
-                    <div>
-                      <h4>By Specific Concern</h4>   
-                      <a href="./product.html">Acne & Blemishes</a>
-                      <a href="./product.html">Fine Lines & Wrinkles</a>
-                      <a href="./product.html">Caffeine</a>
-                      <a href="./product.html">Dark Circles</a>
-                      <a href="./product.html">Dry Skin</a>
-                      <a href="./product.html">Dullness</a>
-                      <a href="./product.html">Lack of Firmness</a>
-                      <a href="./product.html">Pigmentation</a>
-                      <a href="./product.html">Pregnancy Skincare</a>
-                      <a href="./product.html">Redness & Rosacea</a>
-                      <a href="./product.html">Sensitive Skin</a>
-                      <a href="./product.html">Visible Poers</a>
+                      <a href="./shop1.html">Acne & Blemishes</a>
+                      <a href="./shop2.html">Fine Lines & Wrinkles</a>
+                      <a href="./shop3.html">Caffeine</a>
+                      <a href="./shop4.html">Dark Circles</a>
+                      <a href="./shop5.html">Dry Skin</a>
+                      <a href="./shop6.html">Dullness</a>
+                      <a href="./shop1.html">Lack of Firmness</a>
+                      <a href="./shop2.html">Pigmentation</a>
+                      <a href="./shop3.html">Pregnancy Skincare</a>
+                      <a href="./shop4.html">Redness & Rosacea</a>
+                      <a href="./shop5.html">Sensitive Skin</a>
+                      <a href="./shop6.html">Visible Poers</a>
                       </div>
           </div>
         </div>
@@ -735,69 +663,146 @@ let nevbar=()=>{
     
         <div class="dropdown" >
            
-          <button class="dropbtn">Frangrance</button>
+          <button class="dropbtn"><a href="shop2.html">Self-Care</a></button>
           <div class="dropdown-content">
-            <div>
-              <h4>Popular Categories</h4>   
-              <a href="./product.html">View All Skin Care</a>
-              <a href="./product.html">New In</a>
-              <a href="./product.html">Clean Skincare</a>
-              <a href="./product.html">5* Rated Product</a>
-              <a href="./product.html">Gifts & Sets</a>
-              <a href="./product.html">Supersizes & Duo</a>
-              <a href="./product.html">Travel Sizes</a>
-               
-              </div>
+           
     
               <div>
                 <h4>By Product Type</h4>   
-                <a href="./product.html">Cleansers</a>
-                <a href="./product.html">Moisturizers</a>
-                <a href="./product.html">Serums</a>
-                <a href="./product.html">Eye Serum</a>
-                <a href="./product.html">Exfoliators</a>
-                <a href="./product.html">Masks</a>
-                <a href="./product.html">Eye Care</a>
-                <a href="./product.html">Toners</a>
-                <a href="./product.html">Lip Care</a>
-                <a href="./product.html">Oils</a>
-                <a href="./product.html">Treatments</a>
-                <a href="./product.html">Mists</a>
-                <a href="./product.html">Self Tanning</a>
-                <a href="./product.html">Tools</a>
+                <a href="./shop1.html">Cleansers</a>
+                <a href="./shop1.html">Moisturizers</a>
+                <a href="./shop1.html">Serums</a>
+                <a href="./shop1.html">Eye Serum</a>
+                <a href="./shop1.html">Exfoliators</a>
+                <a href="./shop1.html">Masks</a>
+                <a href="./shop1.html">Eye Care</a>
+                <a href="./shop1.html">Toners</a>
+                <a href="./shop1.html">Lip Care</a>
+                <a href="./shop1.html">Oils</a>
+                <a href="./shop1.html">Treatments</a>
+                <a href="./shop1.html">Mists</a>
+                <a href="./shop1.html">Self Tanning</a>
+                <a href="./shop1.html">Tools</a>
                 </div>
               
                 
                 <div>
                   <h4>By Ingredient</h4>   
-                  <a href="./product.html">Vitamin C</a>
-                  <a href="./product.html">AHA</a>
-                  <a href="./product.html">Caffeine</a>
-                  <a href="./product.html">Retinol</a>
-                  <a href="./product.html">Hyaluronic Acid</a>
-                  <a href="./product.html">Niacinamide</a>
-                  <a href="./product.html">Lactic Acid</a>
-                  <a href="./product.html">Salicylic Acid</a>
-                  <a href="./product.html">Glycolic Acid</a>
-                  <a href="./product.html">Azelaic Acid</a>
+                  <a href="./shop1.html">Vitamin C</a>
+                  <a href="./shop2.html">AHA</a>
+                  <a href="./shop3.html">Caffeine</a>
+                  <a href="./shop4.html">Retinol</a>
+                  <a href="./shop5.html">Hyaluronic Acid</a>
+                  <a href="./shop6.html">Niacinamide</a>
+                  <a href="./shop1.html">Lactic Acid</a>
+                  <a href="./shop2.html">Salicylic Acid</a>
+                  <a href="./shop1.html">Glycolic Acid</a>
+                  <a href="./shop3.html">Azelaic Acid</a>
                   </div>
     
     
     
                   <div>
                     <h4>By Specific Concern</h4>   
-                    <a href="./product.html">Acne & Blemishes</a>
-                    <a href="./product.html">Fine Lines & Wrinkles</a>
-                    <a href="./product.html">Caffeine</a>
-                    <a href="./product.html">Dark Circles</a>
-                    <a href="./product.html">Dry Skin</a>
-                    <a href="./product.html">Dullness</a>
-                    <a href="./product.html">Lack of Firmness</a>
-                    <a href="./product.html">Pigmentation</a>
-                    <a href="./product.html">Pregnancy Skincare</a>
-                    <a href="./product.html">Redness & Rosacea</a>
-                    <a href="./product.html">Sensitive Skin</a>
-                    <a href="./product.html">Visible Poers</a>
+                    <a href="./shop1.html">Acne & Blemishes</a>
+                    <a href="./shop1.html">Fine Lines & Wrinkles</a>
+                    <a href="./shop1.html">Caffeine</a>
+                    <a href="./shop1.html">Dark Circles</a>
+                    <a href="./shop1.html">Dry Skin</a>
+                    <a href="./shop1.html">Dullness</a>
+                    <a href="./shop1.html">Lack of Firmness</a>
+                    <a href="./shop1.html">Pigmentation</a>
+                    <a href="./shop1.html">Pregnancy Skincare</a>
+                    <a href="./shop1.html">Redness & Rosacea</a>
+                    <a href="./shop1.html">Sensitive Skin</a>
+                    <a href="./shop1.html">Visible Poers</a>
+                    </div>
+    
+                    <div>
+                      <h4>By Specific Concern</h4>   
+                      <a href="./shop1.html">Acne & Blemishes</a>
+                      <a href="./shop2.html">Fine Lines & Wrinkles</a>
+                      <a href="./shop3.html">Caffeine</a>
+                      <a href="./shop4.html">Dark Circles</a>
+                      <a href="./shop5.html">Dry Skin</a>
+                      <a href="./shop6.html">Dullness</a>
+                      <a href="./shop1.html">Lack of Firmness</a>
+                      <a href="./shop2.html">Pigmentation</a>
+                      <a href="./shop3.html">Pregnancy Skincare</a>
+                      <a href="./shop4.html">Redness & Rosacea</a>
+                      <a href="./shop5.html">Sensitive Skin</a>
+                      <a href="./shop6.html">Visible Poers</a>
+                      </div>
+          </div>
+        </div>
+    
+    
+    
+        <div class="dropdown" >
+           
+          <button class="dropbtn"><a href="shop3.html">Frangrance</a></button>
+          <div class="dropdown-content">
+            <div>
+              <h4>Popular Categories</h4>   
+              <a href="./shop1.html">View All Skin Care</a>
+              <a href="./shop2.html">New In</a>
+              <a href="./shop3.html">Clean Skincare</a>
+              <a href="./shop4.html">5* Rated Product</a>
+              <a href="./shop5.html">Gifts & Sets</a>
+              <a href="./shop6.html">Supersizes & Duo</a>
+              <a href="./shop1.html">Travel Sizes</a>
+               
+              </div>
+    
+              <div>
+                <h4>By Product Type</h4>   
+                <a href="./shop1.html">Cleansers</a>
+                <a href="./shop2.html">Moisturizers</a>
+                <a href="./shoh3.html">Serums</a>
+                <a href="./shop4.html">Eye Serum</a>
+                <a href="./shop5.html">Exfoliators</a>
+                <a href="./shop6.html">Masks</a>
+                <a href="./shop1.html">Eye Care</a>
+                <a href="./shop2.html">Toners</a>
+                <a href="./shop3.html">Lip Care</a>
+                <a href="./shop4.html">Oils</a>
+                <a href="./shop5.html">Treatments</a>
+                <a href="./shop6.html">Mists</a>
+                <a href="./shop1.html">Self Tanning</a>
+                <a href="./shop2.html">Tools</a>
+                </div>
+              
+                
+                <div>
+                  <h4>By Ingredient</h4>   
+                  <a href="./shop1.html">Vitamin C</a>
+                  <a href="./shop2.html">AHA</a>
+                  <a href="./shop3.html">Caffeine</a>
+                  <a href="./shop4.html">Retinol</a>
+                  <a href="./shop5.html">Hyaluronic Acid</a>
+                  <a href="./shop6.html">Niacinamide</a>
+                  <a href="./shop1.html">Lactic Acid</a>
+                  <a href="./shop2.html">Salicylic Acid</a>
+                  <a href="./shop3.html">Glycolic Acid</a>
+                  <a href="./shop4.html">Azelaic Acid</a>
+                  </div>
+    
+    
+    
+                  <div>
+                    <h4>By Specific Concern</h4>   
+                    <a href="./shop1.html">Acne & Blemishes</a>
+                    <a href="./shop2.html">Fine Lines & Wrinkles</a>
+                    <a href="./shop3.html">Caffeine</a>
+                    <a href="./shop4.html">Dark Circles</a>
+                    <a href="./shop5.html">Dry Skin</a>
+                    <a href="./shop6.html">Dullness</a>
+                    <a href="./shop1.html">Lack of Firmness</a>
+                    <a href="./shop2.html">Pigmentation</a>
+                    <a href="./shop3.html">Pregnancy Skincare</a>
+                    <a href="./shop4.html">Redness & Rosacea</a>
+                    <a href="./shop5.html">Sensitive Skin</a>
+                    <a href="./shop6.html">Visible Poers</a>
                     </div>
           </div>
         </div>
@@ -806,51 +811,51 @@ let nevbar=()=>{
     
         <div class="dropdown" >
            
-          <button class="dropbtn">New</button>
+          <button class="dropbtn"><a href="shop4.html">New</a></button>
           <div class="dropdown-content">
             <div>
               <h4>Popular Categories</h4>   
-              <a href="./product.html">View All Skin Care</a>
-              <a href="./product.html">New In</a>
-              <a href="./product.html">Clean Skincare</a>
-              <a href="./product.html">5* Rated Product</a>
-              <a href="./product.html">Gifts & Sets</a>
-              <a href="./product.html">Supersizes & Duo</a>
-              <a href="./product.html">Travel Sizes</a>
+              <a href="./shop1.html">View All Skin Care</a>
+              <a href="./shop2.html">New In</a>
+              <a href="./shop3.html">Clean Skincare</a>
+              <a href="./shop4.html">5* Rated Product</a>
+              <a href="./shop5.html">Gifts & Sets</a>
+              <a href="./shop6.html">Supersizes & Duo</a>
+              <a href="./shop1.html">Travel Sizes</a>
                
               </div>
     
               <div>
                 <h4>By Product Type</h4>   
-                <a href="./product.html">Cleansers</a>
-                <a href="./product.html">Moisturizers</a>
-                <a href="./product.html">Serums</a>
-                <a href="./product.html">Eye Serum</a>
-                <a href="./product.html">Exfoliators</a>
-                <a href="./product.html">Masks</a>
-                <a href="./product.html">Eye Care</a>
-                <a href="./product.html">Toners</a>
-                <a href="./product.html">Lip Care</a>
-                <a href="./product.html">Oils</a>
-                <a href="./product.html">Treatments</a>
-                <a href="./product.html">Mists</a>
-                <a href="./product.html">Self Tanning</a>
-                <a href="./product.html">Tools</a>
+                <a href="./shop1.html">Cleansers</a>
+                <a href="./shop2.html">Moisturizers</a>
+                <a href="./shop3.html">Serums</a>
+                <a href="./shop4.html">Eye Serum</a>
+                <a href="./shop5.html">Exfoliators</a>
+                <a href="./shop6.html">Masks</a>
+                <a href="./shop1.html">Eye Care</a>
+                <a href="./shop2.html">Toners</a>
+                <a href="./shop3.html">Lip Care</a>
+                <a href="./shop4.html">Oils</a>
+                <a href="./shop5.html">Treatments</a>
+                <a href="./shop6.html">Mists</a>
+                <a href="./shop1.html">Self Tanning</a>
+                <a href="./shop2.html">Tools</a>
                 </div>
               
                 
                 <div>
                   <h4>By Ingredient</h4>   
-                  <a href="./product.html">Vitamin C</a>
-                  <a href="./product.html">AHA</a>
-                  <a href="./product.html">Caffeine</a>
-                  <a href="./product.html">Retinol</a>
-                  <a href="./product.html">Hyaluronic Acid</a>
-                  <a href="./product.html">Niacinamide</a>
-                  <a href="./product.html">Lactic Acid</a>
-                  <a href="./product.html">Salicylic Acid</a>
-                  <a href="./product.html">Glycolic Acid</a>
-                  <a href="./product.html">Azelaic Acid</a>
+                  <a href="./shop1.html">Vitamin C</a>
+                  <a href="./shop2.html">AHA</a>
+                  <a href="./shop3.html">Caffeine</a>
+                  <a href="./shop4.html">Retinol</a>
+                  <a href="./shop5.html">Hyaluronic Acid</a>
+                  <a href="./shop6.html">Niacinamide</a>
+                  <a href="./shop1.html">Lactic Acid</a>
+                  <a href="./shop2.html">Salicylic Acid</a>
+                  <a href="./shop3.html">Glycolic Acid</a>
+                  <a href="./shop4.html">Azelaic Acid</a>
                   </div>
     
     
@@ -865,11 +870,11 @@ let nevbar=()=>{
     
         <div class="dropdown" >
            
-          <button class="dropbtn">Advice</button>
+          <button class="dropbtn"><a href="AboutUs.html">Advice</a></button>
           <div class="dropdown-content">
-          <a href="./product.html">Link 1</a>
-          <a href="./product.html">Link 2</a>
-          <a href="./product.html">Link 3</a>
+          <a href="./shop1.html">Link 1</a>
+          <a href="./shop2.html">Link 2</a>
+          <a href="./shop3.html">Link 3</a>
           </div>
         </div>
       </div> 
