@@ -294,7 +294,58 @@
             </div>
         </section>
         <script>
-           
+             var cartArr = JSON.parse(localStorage.getItem('cartthings'));
+            // console.log(cartArr);
+            var finalPrice = JSON.parse(localStorage.getItem('finalPrice')) || "$ 0.00";
+            // console.log(finalPrice);
+            var totalPrice = document.getElementById('total_price_final');
+            totalPrice.innerText = "$"+finalPrice;
+            var count = 0;
+
+            var orderItemContainer = document.getElementById('order_item_container');
+
+            window.addEventListener('load', function(){
+                cartArr.forEach(element => {
+                    
+                    var parent = document.createElement('div');
+
+                    var div1 = document.createElement('div');
+
+                    var img_item = document.createElement('img');
+                    img_item.src = element.image_url;
+                    div1.append(img_item);
+                    
+                    var div2 = document.createElement('div');
+
+                    var p1 = document.createElement('p');
+                    p1.innerText = element.name;
+
+                    
+                    var p2 = document.createElement('p');
+                    p2.innerText = "$"+element.price;
+
+                    var p3 = document.createElement('p');
+                    p3.innerText = "Quantity:"+element.quantity;
+
+                    count = count + Number(element.quantity)
+                    
+
+                    div2.append(p1,p2,p3)
+
+                    parent.append(div1,div2);
+
+                    orderItemContainer.append(parent);
+
+                });
+                var totalQuantity = document.getElementById('total_quant');
+                totalQuantity.innerText = count+" "+"items"
+            })
+
+
+            function redirectSuccess(){
+                window.location.href = "./success.html"
+            }
+
         </script>
     </body>
 </html>
