@@ -87,19 +87,9 @@ if(JSON.parse(localStorage.getItem('finalPrice')) !== null){
 pricenavbarcart.innerText = priceStr;
 
 
-
-let serch=document.getElementById("Search");
-
-serch. addEventListener("keydown", function(event) {
-if (event. key === "Enter") {
-getData();
-}
-
-});
-
 function getData(){
-  let food=document.getElementById("Search").value;
-    let url=`http://makeup-api.herokuapp.com/api/v1/products.json?brand=${food}`;
+  let Product=document.getElementById("Search").value;
+    let url=`http://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelline&product_type=${Product}`;
     fetch(url)
     .then(function(res){
         return res.json();
@@ -107,8 +97,22 @@ function getData(){
     })
     .then(function(res){
         console.log(res);
+        
         localStorage.setItem("brandsearch",JSON.stringify(res));
-         window.location.href="./Search.html";
+        
         //appenddata(res);
     })
     }
+
+getData();
+let serch=document.getElementById("Search");
+
+serch.addEventListener("keydown", function(event) {
+if (event.key === "Enter") {
+getData();
+window.location.href="./Search.html"
+
+}
+
+});
+

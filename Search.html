@@ -25,11 +25,11 @@
                         
 
   <div id="container2">
-    <p><a href="index.html">Home</a>/ <a href="product.html">Skin Care</a>/ <a href=""> Serums </a></p>
-    <h1>Serums</h1>
+    <p><a href="index.html">Home</a>/ <a href="product.html">Skin Care</a>/ <a href="Search.html" id="pageName"> Serums </a></p>
+    <h1 id="BrandName">Serums</h1>
     <div id="sub1">
-      <p>932 results</p>
-      <p>Step up your skincare regime with our selection of potent Serums available here at SkinStore. Ultra-lightweight and fast absorbing, a serum is an ideal alternative
+      <p id="TotalResult">932 results</p>
+      <p id="discription">Step up your skincare regime with our selection of potent Serums available here at SkinStore. Ultra-lightweight and fast absorbing, a serum is an ideal alternative
         or addition to creams or lotion, particularly for oily and combination skin types. They offer highly concentrated doses of essential anti-aging active
         ingredients including peptides, antioxidants, vitamins and brighteners and work to leave skin feeling rejuvenated, soft and nourished.</p>
         <u>Read more</u>
@@ -41,74 +41,13 @@
              <!-- SORTING SECTION OF PRODUCT PAGE HTML -->
 
 
-<select name="sort by" id="one1" onchange="sortProduct(this)">
+<select name="sort by" id="one1" >
   <option value="">Sort by</option>
-  <option value="">Defaulf</option>
-  <option value="">Popularity</option>
-  <option value="lowToHigh" >Price: Low to high</option>
-  <option value="highToLow">Price: High to low</option>
-  <option value="aToZ">A - Z</option>
-  <option value="">Newest Arrivals</option>
-  <option value="">Percentage Discount</option>
-</select>
-<select name="sort by" id="one1">
-  <option value="">Brand</option>
-  <option value="">Defaulf</option>
-  <option value="">Popularity</option>
-  <option value="">Price: Low to high</option>
-  <option value="">Price: High to low</option>
-  <option value="">A - Z</option>
-  <option value="">Newest Arrivals</option>
-  <option value="">Percentage Discount</option>
-</select>
-<select name="sort by" id="one1">
-  <option value="">Skin Care Product Type</option>
-  <option value="">Serums (934)</option>
-  <option value="">Moisturizers (183)</option>
-  <option value="">Eye Care (42)</option>
-  <option value="">Exfoliators & Scrubs (18)</option>
-  <option value="">Cleansers (14)</option>
-  <option value="">Masks (13)</option>
-  <option value="">Toners (9)</option>
-  <option value="">Peels (8)</option>
-  <option value="">Neck & Décolletage (6)</option>
-  <option value="">Lip Care (5)</option>
-  <option value="">Skincare Electrical Devices (2)</option>
-  
-</select>
-<select name="sort by" id="one1">
-  <option value="">Skincare format</option>
-  <option value="">Fluid (640)</option>
-  <option value="">Serum (89)</option>
-  <option value="">Oil (61)</option>
-  <option value="">Cream (54)</option>
-  <option value="">Gel (33)</option>
-  <option value="">Foam (19)</option>
-  <option value="">Clay (11)</option>
-  <option value="">Sheet (10)</option>
-  <option value="">Essence (7)</option>
-  <option value="">Mist (6)</option>
-  <option value="">Ampoules (4)</option>
-  <option value="">Balm (3)</option>
-  <option value="">Pad (2)</option>
-  <option value="">Water (2)</option>
-  <option value="">Wipe (1)</option>
-</select>
-<select name="sort by" id="one1">
-  <option value="">Skincare tools</option>
-  <option value="">Skincare Systems (15)</option>
-  <option value="">Cotton Pads (1)</option>
-  
-</select>
-<select name="sort by" id="one1">
-  <option value="">Skin type</option>
-  <option value="">All (4)</option>
-  <option value="">Combination (7)</option>
-  <option value="">Dry (6)</option>
-  <option value="">Mature (6)</option>
-  <option value="">Normal (6)</option>
-  <option value="">Oily (8)</option>
-  <option value="">Sensitive (9)</option>
+<option value="LH" >Price: Low to high</option>
+  <option value="HL">Price: High to low</option>
+  <option value="Alpha">A - Z</option>
+  <option value="rev Alpha">Z - A</option>
+ 
 </select>
 
 <h3>+Filters</h3>
@@ -118,26 +57,6 @@
 
                   <!-- CART PAGE HTML -->
 
- <div id="container5">
-  <div id="simpleModal" class="modal">
-    <div class="modal-content">
-    <div class="modal-header">
-        <span class="closeBtn">&times;</span>
-        <h1>Added to your cart</h1>
-    </div>
-    <div class="modal-body " id = "modal_body">
-     
-    </div>
-    <div class="modal-footer">
-        <hr>
-         <button id="footer1" onclick="closeModal()">Continue shopping</button>
-         <button id="footer2" onclick="renderCart()">View cart</button>
-         <hr>
-            </div>
-       </div>
-    
-    </div>
- </div>
 
 
  <div id="footerPart"></div>
