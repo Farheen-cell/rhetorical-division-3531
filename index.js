@@ -89,7 +89,7 @@ pricenavbarcart.innerText = priceStr;
 
 function getData(){
   let Product=document.getElementById("Search").value;
-    let url=`http://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelline&product_type=${Product}`;
+    let url=`https://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelline&product_type=${Product}`;
     fetch(url)
     .then(function(res){
         return res.json();

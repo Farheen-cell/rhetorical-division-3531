@@ -37,6 +37,7 @@ SearchAppend(data);
 function cartLS(el){
   cart.push(el);
 localStorage.setItem("cartthings",JSON.stringify(data))
+alert("Item successfully added to your cart")
 }
 
 let Name=document.getElementById("BrandName");
